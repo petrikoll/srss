@@ -1,0 +1,10 @@
+# Prezentační web SRSS — Render Static Site.
+services:
+  - type: web
+    name: srss-jesenik-web
+    runtime: static
+    buildCommand: python3 src/build.py
+    staticPublishPath: ./dist
+    envVars:
+      - key: SKIP_INSTALL_DEPS
+        value: "true"
