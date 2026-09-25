@@ -1,0 +1,3854 @@
+{
+  "metadata": {
+    "title": "SRSS Jeseník — rozšířený rešeršní katalog",
+    "version": "2.0",
+    "checked_at": "2026-09-23",
+    "organisation": "Středisko rozvoje sociálních služeb, o.p.s.",
+    "ico": "27847977",
+    "scope": "Veřejné profesní aktivity, města a obce, Olomoucký kraj, regionální média, strategické dokumenty; těžiště 2016–2025, historie a návaznost odděleny.",
+    "counts": {
+      "research_records": 53,
+      "confirmed_read_sources": 15,
+      "index_records": 15,
+      "registry_records": 4,
+      "metadata_records": 19,
+      "queue_records": 22,
+      "asset_records": 12,
+      "downloaded_original_photos": 0,
+      "legacy_sources": 45,
+      "legacy_document_links": 36
+    },
+    "limitations": [
+      "Nejde o vyčerpávající archiv všech zpravodajů ani všech mediálních zmínek.",
+      "Některé servery a přílohy nebyly přístupné; stav každého záznamu rozlišuje rozsah ověření.",
+      "Fotografie nebyly staženy jako originální soubory; nebyla provedena nová hashová deduplikace.",
+      "Starší katalog je zachován bez přeznačení na nově ověřený.",
+      "Žádná z výročních zpráv nebyla tímto balíčkem editována."
+    ]
+  },
+  "records": [
+    {
+      "id": "N01",
+      "title": "Závěrečný workshop čtyř plánujících lokalit – zápis a fotodokumentace",
+      "url": "https://www.konice.charita.cz/res/archive/008/001029.pdf?seek=1611613175",
+      "publisher": "Charita Konice",
+      "type": "Zápis + fotografie",
+      "years": [
+        2019
+      ],
+      "summary": "Zápis z 30. 9. 2019 v Národním domě v Prostějově rozlišuje SRSS jako realizátora projektů Prostějovska, Litovelska a Mohelnicka a partnera projektu Konicka. Lenka Tichavská spoluzahajovala jednání, zastoupila Litovel a shrnula metodické závěry. Uvádí účast Hany Bodnarové, Petry Hemžské a Hany Vykydalové z krajské úrovně. Fotodokumentace je na stranách 4–10.",
+      "limitations": "Přečten text; obrazově ověřena strana 4. Další snímky zatím podle popisků. Originální fotografie nejsou staženy. Čísla potřeb služeb v zápisu nejsou hospodařením SRSS.",
+      "people": [
+        "Lenka Tichavská"
+      ],
+      "relationship": "SRSS – přímá zmínka",
+      "verification": "Přečtený zdroj",
+      "published_at": null,
+      "event_date": "2019-09-30",
+      "period": null,
+      "locator": "PDF str. 1–3: zápis; str. 4–10: fotodokumentace",
+      "tags": [
+        "Olomoucký kraj",
+        "Prostějov",
+        "Litovel",
+        "Mohelnice",
+        "Konice",
+        "Fotografie"
+      ],
+      "links": [],
+      "event_group": "workshop2019",
+      "web_reference_ids": [
+        "turn838369view0",
+        "turn659166view0"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N02",
+      "title": "Konicko: závěrečná prezentace výslovně uvádí Petra Laštovicu",
+      "url": "https://www.konice.charita.cz/res/archive/001024.pdf?seek=1611613119",
+      "publisher": "Charita Konice",
+      "type": "Prezentace PDF",
+      "years": [
+        2019
+      ],
+      "summary": "Na 8. straně prezentace je Petr Laštovica označen jako projektový manažer a Lenka Tichavská jako metodik a garant. Dokument dále představuje plán 2019–2021, akční plán 2020, tištěný katalog a elektronický katalog Konicka.",
+      "limitations": "Jde o role v konkrétním partnerském projektu. Dokument sám neurčuje formu pracovního vztahu k SRSS ani počátek a konec zaměstnání. Přesné datum vytvoření prezentace není doloženo; kontextem je závěr projektu 2019.",
+      "people": [
+        "Lenka Tichavská",
+        "Petr Laštovica"
+      ],
+      "relationship": "SRSS – partnerský projekt",
+      "verification": "Přečtený zdroj",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": "PDF str. 1; zejména str. 8–9",
+      "tags": [
+        "Konice",
+        "Komunitní plánování",
+        "Personální role"
+      ],
+      "links": [],
+      "event_group": "konicko2017_2019",
+      "web_reference_ids": [
+        "turn465666view2"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N03",
+      "title": "Střednědobý plán sociálních služeb Konicka 2019–2021",
+      "url": "https://www.konice.charita.cz/res/archive/008/001025.pdf?seek=1611613129",
+      "publisher": "Charita Konice",
+      "type": "Strategický dokument PDF",
+      "years": [
+        2019,
+        2020,
+        2021
+      ],
+      "summary": "Přímé uvedení SRSS jako partnera. V procesní kapitole je Lenka Tichavská jmenována garantkou a metodičkou. Jako zpracovatel celého dokumentu je uveden Jan Fukala. Plán obsahuje analytickou část, strukturu pracovních skupin a priority.",
+      "limitations": "Nezaměňovat autorskou, metodickou a partnerskou roli. Období platnosti plánu není období, ve kterém byl celý dokument postupně sepisován. Hodnocení služeb jiných organizací nepřičítat SRSS.",
+      "people": [
+        "Lenka Tichavská"
+      ],
+      "relationship": "SRSS – partnerský projekt",
+      "verification": "Přečtený zdroj",
+      "published_at": null,
+      "event_date": null,
+      "period": "Platnost 2019–2021",
+      "locator": "PDF str. 1–2 a str. 8 (tištěná str. 7)",
+      "tags": [
+        "Konice",
+        "Strategické dokumenty",
+        "Olomoucký kraj"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn465666view1",
+        "turn703979view1"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N04",
+      "title": "Katalog sociálních a návazných služeb Konicka",
+      "url": "https://www.konice.charita.cz/res/archive/001028.pdf?seek=1611613172",
+      "publisher": "Charita Konice",
+      "type": "Katalog služeb PDF",
+      "years": [
+        2019
+      ],
+      "summary": "Obálka uvádí partnerství SRSS. Úvod popisuje třetí vydání katalogu a souběžný vznik elektronické verze. Jde o konkrétní výstup projektu, ne pouze o projektový záměr.",
+      "limitations": "Vydání přiřazeno podle projektového kontextu; přesné datum publikace na webu není doloženo. Služby všech organizací uvedených v katalogu nejsou službami SRSS.",
+      "people": [],
+      "relationship": "SRSS – partnerský projekt",
+      "verification": "Přečtený zdroj",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": "PDF str. 1–2",
+      "tags": [
+        "Konice",
+        "Projektové výstupy"
+      ],
+      "links": [],
+      "event_group": "konicko2017_2019",
+      "web_reference_ids": [
+        "turn465666view3"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N05",
+      "title": "Charita Konice: partnerský projekt plánování 2017–2019",
+      "url": "https://www.konice.charita.cz/Nase-dalsi-aktivity/komunitni-planovani/2017-2019-podpora-strednedobeho-planovani-sociach-sluzeb-na-konicu/",
+      "publisher": "Charita Konice",
+      "type": "Projektová stránka",
+      "years": [
+        2017,
+        2018,
+        2019
+      ],
+      "summary": "Stránka uvádí Charitu Konice jako realizátora a město Konice a SRSS jako partnery. Zahájení 1. 9. 2017, na stránce plánované ukončení 31. 8. 2019. Registrační číslo končí 0006527.",
+      "limitations": "Plánované ukončení na této stránce se nerovná důkazu skutečného závěru všech aktivit; existuje zápis workshopu 30. 9. 2019. Rozpočet celé partnerské akce není příjmem SRSS.",
+      "people": [],
+      "relationship": "SRSS – partnerský projekt",
+      "verification": "Přečtený zdroj",
+      "published_at": null,
+      "event_date": "2017-09-01",
+      "period": "Plán 1. 9. 2017–31. 8. 2019",
+      "locator": null,
+      "tags": [
+        "Konice",
+        "Partnerství"
+      ],
+      "links": [
+        {
+          "label": "Výstupy projektu",
+          "url": "https://www.konice.charita.cz/Nase-dalsi-aktivity/komunitni-planovani/2017-2019-podpora-strednedobeho-planovani-sociach-sluzeb-na-konicu/vystupy-z-projektu/"
+        },
+        {
+          "label": "Fotogalerie",
+          "url": "https://www.konice.charita.cz/Nase-dalsi-aktivity/komunitni-planovani/2017-2019-podpora-strednedobeho-planovani-sociach-sluzeb-na-konicu/fotogalerie/"
+        }
+      ],
+      "event_group": "konicko2017_2019",
+      "web_reference_ids": [
+        "turn177435view1"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N06",
+      "title": "Kurz Úvod do komunitního plánování – Lenka Tichavská a 15 účastníků",
+      "url": "https://www.konice.charita.cz/Nase-dalsi-aktivity/komunitni-planovani/2017-2019-podpora-strednedobeho-planovani-sociach-sluzeb-na-konicu/fotogalerie/",
+      "publisher": "Charita Konice",
+      "type": "Kurz + galerijní stránka",
+      "years": [
+        2017,
+        2018,
+        2019
+      ],
+      "summary": "Partnerská stránka jmenuje Lenku Tichavskou ze SRSS jako lektorku a uvádí 15 účastníků kurzu. Akreditace 2014/0494-PC/SP/VP/PP. Popsána jsou témata procesu plánování a návaznosti na financování služeb.",
+      "limitations": "Přesný den ani jednoznačný kalendářní rok kurzu není uveden. Rozsah 2017–2019 vychází z umístění stránky v projektové rubrice; neúčtovat 15 účastníků každému roku. Galerie není potvrzeným souborem stažených fotografií.",
+      "people": [
+        "Lenka Tichavská"
+      ],
+      "relationship": "SRSS – partnerský projekt",
+      "verification": "Přečtený zdroj",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": "Oddíl Úvod do komunitního plánování",
+      "tags": [
+        "Konice",
+        "Vzdělávání",
+        "Fotografie"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn740452view1"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N07",
+      "title": "Výstupy Konicka – rozcestník analýz, plánu, prezentací a zápisu",
+      "url": "https://www.konice.charita.cz/Nase-dalsi-aktivity/komunitni-planovani/2017-2019-podpora-strednedobeho-planovani-sociach-sluzeb-na-konicu/vystupy-z-projektu/",
+      "publisher": "Charita Konice",
+      "type": "Dokumentový rozcestník",
+      "years": [
+        2017,
+        2018,
+        2019
+      ],
+      "summary": "Veřejný rozcestník zpřístupňuje výzkum potřebnosti, katalog, závěrečný zápis, prezentace a plán. Čtyři konkrétní přečtené dokumenty mají samostatné záznamy N01–N04.",
+      "limitations": "Rozcestník a jeho přílohy se při statistice nesčítají jako nezávislá potvrzení jedné události. Další nepřečtené přílohy jsou pouze frontou k prověření.",
+      "people": [],
+      "relationship": "SRSS – partnerský projekt",
+      "verification": "Přečtený zdroj",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Konice",
+        "Archiv"
+      ],
+      "links": [
+        {
+          "label": "Zápis a fotografie",
+          "url": "https://www.konice.charita.cz/res/archive/008/001029.pdf?seek=1611613175"
+        },
+        {
+          "label": "Závěrečná prezentace",
+          "url": "https://www.konice.charita.cz/res/archive/001024.pdf?seek=1611613119"
+        },
+        {
+          "label": "Střednědobý plán",
+          "url": "https://www.konice.charita.cz/res/archive/008/001025.pdf?seek=1611613129"
+        },
+        {
+          "label": "Katalog",
+          "url": "https://www.konice.charita.cz/res/archive/001028.pdf?seek=1611613172"
+        }
+      ],
+      "event_group": "konicko2017_2019",
+      "web_reference_ids": [
+        "turn414660view3"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N08",
+      "title": "Elektronický katalog Mohelnicka – uvedení SRSS jako realizátora",
+      "url": "https://katalog.mohelnice.cz/",
+      "publisher": "Město Mohelnice",
+      "type": "Elektronický katalog",
+      "years": [
+        2017,
+        2018,
+        2019
+      ],
+      "summary": "Katalog přímo uvádí SRSS jako realizátora plánovacího projektu a odbor sociálních věcí města Mohelnice jako partnera.",
+      "limitations": "Současný obsah katalogu může být aktualizován. Rok v patičce není rokem vytvoření výstupu a novější poskytovatelé nejsou automaticky původním stavem roku 2019.",
+      "people": [],
+      "relationship": "SRSS – přímá zmínka",
+      "verification": "Přečtený zdroj",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Mohelnice",
+        "Projektové výstupy"
+      ],
+      "links": [],
+      "event_group": "mohelnice2017_2019",
+      "web_reference_ids": [
+        "turn637545view2"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N09",
+      "title": "ESF: Střednědobé plánování sociálních služeb SO ORP Mohelnice",
+      "url": "https://www.esfcr.cz/projekty-opz/-/asset_publisher/ODuZumtPTtTa/content/strednedobe-planovani-rozvoje-socialnich-sluzeb-so-orp-mohelnice?inheritRedirect=false",
+      "publisher": "ESF ČR / MPSV",
+      "type": "Úřední projektový záznam",
+      "years": [
+        2017,
+        2018,
+        2019
+      ],
+      "summary": "Záznam uvádí SRSS jako příjemce, projekt CZ.03.2.63/0.0/0.0/16_063/0006549 a dobu realizace 1. 9. 2017–30. 9. 2019.",
+      "limitations": "Údaj je dohledán v indexovaném úředním záznamu. Datum importu do databáze v roce 2020 není zahájením projektu.",
+      "people": [],
+      "relationship": "SRSS – přímá zmínka",
+      "verification": "Vyhledávací index",
+      "published_at": null,
+      "event_date": null,
+      "period": "1. 9. 2017–30. 9. 2019",
+      "locator": null,
+      "tags": [
+        "Mohelnice",
+        "Dotace"
+      ],
+      "links": [],
+      "event_group": "mohelnice2017_2019",
+      "web_reference_ids": [
+        "turn426154search1"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N10",
+      "title": "Litovelsko: elektronický katalog s uvedením projektu SRSS",
+      "url": "https://www.socialnisluzbylitovel.cz/sluzby/mentalni-postizeni/",
+      "publisher": "Katalog sociálních služeb Litovelska",
+      "type": "Elektronický katalog",
+      "years": [
+        2017,
+        2018,
+        2019
+      ],
+      "summary": "Indexovaná stránka katalogu uvádí SRSS jako realizátora projektu CZ.03.2.63/0.0/0.0/16_063/0006530.",
+      "limitations": "Jednotlivé tematické kategorie opakují stejnou projektovou patičku. Nejde o několik nezávislých důkazů. Současné kategorie neobnovují historickou podobu katalogu.",
+      "people": [],
+      "relationship": "SRSS – přímá zmínka",
+      "verification": "Vyhledávací index",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Litovel",
+        "Projektové výstupy"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn568495search10"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N11",
+      "title": "Město Jeseník informuje o bezplatné dluhové poradně",
+      "url": "https://jesenik.cz/cz/informace/k4290-uvodni-strana/1852-dluhova-poradna.html",
+      "publisher": "Město Jeseník",
+      "type": "Městská aktualita",
+      "years": [
+        2020
+      ],
+      "summary": "Město informovalo o poradně ve druhém patře OC Alkron a o její bezplatné pomoci obyvatelům okresu. Připojilo dvoustránkový leták.",
+      "limitations": "",
+      "people": [],
+      "relationship": "SRSS – přímá zmínka",
+      "verification": "Přečtený zdroj",
+      "published_at": "2020-02-17",
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Jeseník",
+        "Dluhové poradenství"
+      ],
+      "links": [
+        {
+          "label": "Dobový leták",
+          "url": "https://jesenik.cz/system/download.php?id=25097&lang=cz&mid=1761"
+        }
+      ],
+      "event_group": "jpdII_2020",
+      "web_reference_ids": [
+        "turn414660view1"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N12",
+      "title": "Dobový leták JPD II – tým poradny a preventivní besedy",
+      "url": "https://jesenik.cz/system/download.php?id=25097&lang=cz&mid=1761",
+      "publisher": "Město Jeseník / SRSS",
+      "type": "Informační leták PDF",
+      "years": [
+        2020
+      ],
+      "summary": "Leták uvádí Lenku Tichavskou jako ředitelku, Daniela Horkého jako vedoucího poradny, Radku Sedláčkovou jako poradkyni a Tamaru Koudelovou jako lektorku besed. Obsahuje projekt 0010305, nabídku pomoci a adresu Palackého 1341/2.",
+      "limitations": "Datování opřeno o městský článek z 17. 2. 2020; přesná tisková datace letáku není známa. Nabízené dvouhodinové besedy nejsou dokladem skutečného počtu realizací.",
+      "people": [
+        "Lenka Tichavská",
+        "Daniel Horký"
+      ],
+      "relationship": "SRSS – přímá zmínka",
+      "verification": "Přečtený zdroj",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": "PDF str. 1–2",
+      "tags": [
+        "Jeseník",
+        "Dluhové poradenství",
+        "Grafika",
+        "Personální role"
+      ],
+      "links": [],
+      "event_group": "jpdII_2020",
+      "web_reference_ids": [
+        "turn740452view2"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N13",
+      "title": "Hanácká Drbna: V Jeseníku funguje dluhová poradna, pomáhá zadluženým bezplatně",
+      "url": "https://hanacka.drbna.cz/spolecnost/17383-v-jeseniku-funguje-dluhova-poradna-pomaha-zadluzenym-bezplatne.html",
+      "publisher": "Hanácká Drbna",
+      "type": "Regionální článek / vyjádření",
+      "years": [
+        2020
+      ],
+      "summary": "Článek Barbory Genser cituje Daniela Horkého k obnovení poradny. Zachycuje dobovou komunikaci druhé etapy projektu a pomoc při oddlužení.",
+      "limitations": "K dispozici indexovaný text; přímé otevření selhalo. Číselný výrok o prvním týdnu není celoroční výsledek. Obrázek je označen jako ilustrační, zdroj jesenik.org.",
+      "people": [
+        "Daniel Horký"
+      ],
+      "relationship": "SRSS – přímá zmínka",
+      "verification": "Vyhledávací index",
+      "published_at": "2020-02-18",
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Jeseník",
+        "Média",
+        "Dluhové poradenství"
+      ],
+      "links": [
+        {
+          "label": "Dřívější varianta adresy téhož článku",
+          "url": "https://hanacka.drbna.cz/zpravy/spolecnost/17383-v-jeseniku-funguje-dluhova-poradna-pomaha-zadluzenym-bezplatne.html"
+        }
+      ],
+      "event_group": "jpdII_2020",
+      "web_reference_ids": [
+        "turn235634search4",
+        "turn235634search1"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N14",
+      "title": "Město Jeseník: informace o nové poradně SRSS v roce 2025",
+      "url": "https://jesenik.cz/cz/informace/k3357-mesto-jesenik/3756-pomoc-pro-ty-kteri-se-ocitli-v-tizive-financni-situaci.html",
+      "publisher": "Město Jeseník",
+      "type": "Městská aktualita",
+      "years": [
+        2025
+      ],
+      "summary": "Článek uvádí nově otevřenou poradnu SRSS v ulici 28. října 896/19, Daniela Horkého jako vedoucího a Nelu Laštovicovou Kinc jako poradkyni.",
+      "limitations": "Text zároveň popisuje Člověka v tísni; neslučovat jeho služby se SRSS. Provozní doba je stav článku z března 2025, nikoli automaticky současný stav.",
+      "people": [
+        "Daniel Horký"
+      ],
+      "relationship": "SRSS – přímá zmínka",
+      "verification": "Přečtený zdroj",
+      "published_at": "2025-03-03",
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Jeseník",
+        "Dluhové poradenství",
+        "Personální role"
+      ],
+      "links": [],
+      "event_group": "jpdIII_2025",
+      "web_reference_ids": [
+        "turn637545view1"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N15",
+      "title": "Metro: Dlužníkům na Jesenicku pomůže nová poradna",
+      "url": "https://www.metro.cz/kraje/olomoucky-kraj/dluznikum-na-jesenicku-pomuze-nova-poradna.A250304_145620_metro-olomouc-zpravy_hrs",
+      "publisher": "Metro / Rostislav Hányš",
+      "type": "Regionální článek",
+      "years": [
+        2025
+      ],
+      "summary": "Mediální zmínka o nové poradně, jejím vedoucím Danielu Horkém a bezplatné pomoci. Vhodná jako doklad veřejné komunikace obnovené služby.",
+      "limitations": "Přečten index, přímé načtení skončilo chybou dekódování. Ilustrační fotografie Profimedia není snímkem činnosti SRSS.",
+      "people": [
+        "Daniel Horký"
+      ],
+      "relationship": "SRSS – přímá zmínka",
+      "verification": "Vyhledávací index",
+      "published_at": "2025-03-04",
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Jeseník",
+        "Média"
+      ],
+      "links": [],
+      "event_group": "jpdIII_2025",
+      "web_reference_ids": [
+        "turn235634search0"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N16",
+      "title": "Deník: Lidem z Jesenicka bez práce či s dluhy pomohou profesionálové",
+      "url": "https://www.denik.cz/olomoucky-kraj/lidem-bez-prace-ci-s-dluhy-pomohou-profesionalove-20120903-50sd.html",
+      "publisher": "Deník / Petr Krňávek",
+      "type": "Regionální článek",
+      "years": [
+        2012
+      ],
+      "summary": "Článek zmiňuje Lenku Tichavskou ze SRSS a souběh aktivit sociální integrace na Jesenicku. Dokládá veřejné působení před projektem Jesenicko proti dluhům z roku 2016.",
+      "limitations": "Článek je z 4. 9. 2012, přestože URL obsahuje 20120903. Dostupný index; ilustrační snímek DENÍK/Milan Holakovský nepovažovat za fotografii pracovníků SRSS.",
+      "people": [
+        "Lenka Tichavská"
+      ],
+      "relationship": "SRSS – přímá zmínka",
+      "verification": "Vyhledávací index",
+      "published_at": "2012-09-04",
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Jeseník",
+        "Historie",
+        "Média"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn580031search1"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N17",
+      "title": "ČTK / iDNES: dluhy a obnova domácností na Jesenicku po povodni",
+      "url": "https://www.idnes.cz/olomouc/zpravy/pomoc-stat-zaplavy-jesenicko-dluhy.A250214_095733_olomouc-zpravy_hrs",
+      "publisher": "ČTK / iDNES.cz",
+      "type": "Regionální kontext",
+      "years": [
+        2025
+      ],
+      "summary": "Text z 14. 2. 2025 popisuje souvislost zadlužení domácností a obnovy po povodni. Jde o kontext potřebnosti pomoci v regionu.",
+      "limitations": "V dostupném textu nebyla potvrzena přímá zmínka o SRSS. Neuvádět jako článek ČTK o výsledcích SRSS. Fotografický kredit Filip Fojtík/MAFRA se vztahuje k mediálnímu snímku, nikoli k SRSS.",
+      "people": [],
+      "relationship": "Pouze tematický kontext",
+      "verification": "Vyhledávací index",
+      "published_at": "2025-02-14",
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Jeseník",
+        "ČTK",
+        "Média",
+        "Povodně"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn737890search2"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N18",
+      "title": "Jiří Kovalčík v článku města o podpoře lékařů",
+      "url": "https://jesenik.cz/cz/informace/k3357-mesto-jesenik/3656-milionova-podpora-lekarum-jesenik-poprve-rozdelil-dotaci-v-oblasti-zdravotnictvi.html",
+      "publisher": "Město Jeseník",
+      "type": "Městská aktualita",
+      "years": [
+        2024
+      ],
+      "summary": "Městský text označuje Jiřího Kovalčíka jako vedoucího odboru sociálních věcí a zdravotnictví MěÚ Jeseník.",
+      "limitations": "Je to profesní role v městském úřadu, nikoli doklad činnosti SRSS nebo jeho financování.",
+      "people": [
+        "Jiří Kovalčík"
+      ],
+      "relationship": "Osoba – činnost mimo SRSS",
+      "verification": "Vyhledávací index",
+      "published_at": "2024-12-02",
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Jeseník",
+        "Zdravotnictví",
+        "Personální role"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn589730search14"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N19",
+      "title": "Jiří Kovalčík – historický rejstříkový vztah k SRSS",
+      "url": "https://www.podnikatel.cz/rejstrik/osoby/jiri-kovalcik-1898304/",
+      "publisher": "Podnikatel.cz / rejstříkový agregátor",
+      "type": "Historický rejstříkový údaj",
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "summary": "Agregátor uvádí Jiřího Kovalčíka u SRSS jako člena správní rady s historickým záznamem 21. 6. 2008–14. 2. 2013.",
+      "limitations": "Zobrazené hranice záznamu nemusejí být přesnými daty vzniku a zániku funkce. Ověřit úplným výpisem a listinami ve veřejném rejstříku; nepřenášet do ročníků 2016–2025 bez dalšího dokladu.",
+      "people": [
+        "Jiří Kovalčík"
+      ],
+      "relationship": "SRSS – přímá zmínka",
+      "verification": "Sekundární rejstříkový údaj",
+      "published_at": null,
+      "event_date": null,
+      "period": "Historický záznam 2008–2013",
+      "locator": null,
+      "tags": [
+        "Historie",
+        "Správní rada"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn667402search9"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N20",
+      "title": "Domov Sněženka – Jiří Kovalčík v současných kontaktech",
+      "url": "https://www.domovsnezenka.cz/kontakt",
+      "publisher": "Domov Sněženka Jeseník",
+      "type": "Profil organizace",
+      "years": [
+        2026
+      ],
+      "summary": "Veřejná kontaktní stránka Domova Sněženka jmenuje Jiřího Kovalčíka jako ředitele.",
+      "limitations": "Nedatovaná současná stránka sama nedokládá začátek jeho působení ani stav všech minulých let. Jde o jinou organizaci než SRSS.",
+      "people": [
+        "Jiří Kovalčík"
+      ],
+      "relationship": "Osoba – činnost mimo SRSS",
+      "verification": "Vyhledávací index",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Jeseník",
+        "Sociální služby",
+        "Personální role"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn857352search6"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N21",
+      "title": "Domov Sněženka – rejstříková stopa k nástupu v roce 2025",
+      "url": "https://www.podnikatel.cz/rejstrik/domov-snezenka-jesenik-prispevkova-organizace-75004097/",
+      "publisher": "Podnikatel.cz / Finmag",
+      "type": "Historický rejstříkový údaj",
+      "years": [
+        2025
+      ],
+      "summary": "Agregovaný rejstřík uvádí vznik ředitelské funkce Jiřího Kovalčíka 1. 7. 2025. Druhý agregátor eviduje jmenovací listinu Pr 753/SL46/KSOS.",
+      "limitations": "Přesné datum potvrdit primární listinou. Datum vzniku funkce, zápisu a založení listiny jsou různé údaje.",
+      "people": [
+        "Jiří Kovalčík"
+      ],
+      "relationship": "Osoba – činnost mimo SRSS",
+      "verification": "Sekundární rejstříkový údaj",
+      "published_at": null,
+      "event_date": "2025-07-01",
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Jeseník",
+        "Personální role"
+      ],
+      "links": [
+        {
+          "label": "Evidence listiny a změn",
+          "url": "https://www.finmag.cz/obchodni-rejstrik/75004097-domov-snezenka-jesenik-prispevkova-organizace/zmeny"
+        }
+      ],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn573880search0",
+        "turn573880search5"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N22",
+      "title": "Město zveřejnilo krajské výběrové řízení na ředitele Sněženky",
+      "url": "https://jesenik.cz/cz/uredni-deska/k4149-oznameni/16206-oznameni-vr-kuok-reditel-ka-domov-snezenka-jesenik.html",
+      "publisher": "Město Jeseník / KÚ Olomouckého kraje",
+      "type": "Úřední deska",
+      "years": [
+        2025
+      ],
+      "summary": "Zveřejněno 11. 2. 2025: oznámení krajského výběrového řízení na ředitele či ředitelku Domova Sněženka.",
+      "limitations": "Výzva neobsahuje důkaz, kdo byl následně vybrán. Není doložením jmenování Jiřího Kovalčíka.",
+      "people": [],
+      "relationship": "Pouze tematický kontext",
+      "verification": "Vyhledávací index",
+      "published_at": "2025-02-11",
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Olomoucký kraj",
+        "Jeseník",
+        "Personální role"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn573880search4"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N23",
+      "title": "Jiří Kovalčík – skautské středisko Slunce Jeseník",
+      "url": "https://www.podnikatel.cz/rejstrik/junak-cesky-skaut-stredisko-slunce-jesenik-z-s-68911891/",
+      "publisher": "Podnikatel.cz / rejstříkový agregátor",
+      "type": "Spolková role",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "summary": "Agregátor uvádí Jiřího Kovalčíka ve vedení skautského střediska Slunce Jeseník a navazující funkční období.",
+      "limitations": "Pouze doplňující spolkový kontext. Ověřit primárním skautským zdrojem a úplným výpisem; aktivity skautů nepřičítat SRSS.",
+      "people": [
+        "Jiří Kovalčík"
+      ],
+      "relationship": "Osoba – činnost mimo SRSS",
+      "verification": "Sekundární rejstříkový údaj",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Jeseník",
+        "Spolková činnost"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn667402search5"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N24",
+      "title": "MAS Jesenicko: tvorba integrované strategie a Martina Fafílková",
+      "url": "https://www.masjesenicko.cz/cz/projekty/15-prv-tvorba-isu.html",
+      "publisher": "MAS Vincenze Priessnitze pro Jesenicko",
+      "type": "Projektová stránka + přílohy",
+      "years": [
+        2013,
+        2014
+      ],
+      "summary": "Projektová stránka pro období 06/2013–05/2014 uvádí Martinu Fafílkovou mezi kontakty. Odkazuje na analytické podklady a výstupy pracovních skupin včetně sociální oblasti, zaměstnanosti a zdravotnictví.",
+      "limitations": "Jde o projekt MAS, nikoli SRSS. Kontaktní role nedokládá samostatné autorství všech příloh. Přesný text sociálního výstupu se nepodařilo načíst.",
+      "people": [
+        "Martina Mařáková / Fafílková"
+      ],
+      "relationship": "Osoba – činnost mimo SRSS",
+      "verification": "Přečtený zdroj",
+      "published_at": null,
+      "event_date": null,
+      "period": "06/2013–05/2014",
+      "locator": null,
+      "tags": [
+        "Jesenicko",
+        "Strategické dokumenty",
+        "MAS"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn286481view2"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N25",
+      "title": "Krajská podpora tvorby integrované strategie MAS v roce 2014",
+      "url": "https://www.masjesenicko.cz/cz/projekty/14-ku-olomouckeho-kraje.html",
+      "publisher": "MAS Vincenze Priessnitze pro Jesenicko",
+      "type": "Projektová stránka",
+      "years": [
+        2014
+      ],
+      "summary": "Stránka projektu tvorby integrované strategie uvádí podporu Olomouckého kraje 115 000 Kč a jako kontakt Martinu Fafílkovou.",
+      "limitations": "Podpora náleží projektu MAS. Nejde o dotaci SRSS ani osobní příjem uvedené pracovnice.",
+      "people": [
+        "Martina Mařáková / Fafílková"
+      ],
+      "relationship": "Osoba – činnost mimo SRSS",
+      "verification": "Přečtený zdroj",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Olomoucký kraj",
+        "MAS",
+        "Strategické dokumenty"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn753278view2"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N26",
+      "title": "Profesní profil Martina Fafílková (Mařáková)",
+      "url": "https://cz.linkedin.com/in/martina-faf%C3%ADlkov%C3%A1-ma%C5%99%C3%A1kov%C3%A1-1b227212b",
+      "publisher": "LinkedIn / vlastní profil",
+      "type": "Profesní profil",
+      "years": [
+        2016,
+        2017
+      ],
+      "summary": "Profil spojuje obě podoby jména a uvádí profesní zkušenosti spojené s Boétheií, MAP města Jeseník a Mikroregionem Žulovsko.",
+      "limitations": "Údaje pocházejí z vlastního profesního profilu; nebyly nezávisle potvrzeny všechny role ani jejich délka. Označení „dosud“ není dokladem současného zaměstnání. Činnost jiných subjektů nepřičítat SRSS.",
+      "people": [
+        "Martina Mařáková / Fafílková"
+      ],
+      "relationship": "Osoba – vlastní profesní tvrzení",
+      "verification": "Vyhledávací index",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Profesní historie",
+        "Jesenicko"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn235634search3"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N27",
+      "title": "MAP Jesenicka 2016–2018 – související projektová dokumentace",
+      "url": "https://www.masjesenicko.cz/cz/projekty/8-mistni-akcni-plan-map.html",
+      "publisher": "MAS Vincenze Priessnitze pro Jesenicko",
+      "type": "Projektová stránka",
+      "years": [
+        2016,
+        2017,
+        2018
+      ],
+      "summary": "Stránka uvádí město Jeseník jako žadatele a MAS jako partnera projektu místního akčního plánování v období 06/2016–05/2018.",
+      "limitations": "Na přečtené stránce nebylo potvrzeno jméno Martiny Fafílkové ani role SRSS. Je to kontext k ověření profesního profilu, nikoli samostatný důkaz jejího působení.",
+      "people": [],
+      "relationship": "Pouze tematický kontext",
+      "verification": "Přečtený zdroj",
+      "published_at": null,
+      "event_date": null,
+      "period": "06/2016–05/2018",
+      "locator": null,
+      "tags": [
+        "MAP",
+        "Jesenicko",
+        "Vzdělávání"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn753278view1"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N28",
+      "title": "Petr Laštovica v jesenickém občanském tématu – totožnost k ověření",
+      "url": "https://www.denik.cz/olomoucky-kraj/referendum-o-aquaparku-chce-jiz-ctrnact-stovek-lidi-20130611-pq05.html",
+      "publisher": "Deník / Petr Krňávek",
+      "type": "Občanská aktivita – neověřená identita",
+      "years": [
+        2013
+      ],
+      "summary": "Článek jmenuje Petra Laštovicu jako zástupce přípravného výboru referenda o jesenickém aquaparku. Existují další související články z téhož roku.",
+      "limitations": "V tomto sběru není doloženo, že jde o totožného člověka jako projektového manažera v N02. Vést odděleně a nevkládat do výroční zprávy SRSS. Bez hodnocení politických postojů.",
+      "people": [
+        "Petr Laštovica"
+      ],
+      "relationship": "Totožnost nebo vazba neověřena",
+      "verification": "Vyhledávací index",
+      "published_at": "2013-06-11",
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Jeseník",
+        "Média",
+        "Kontrola totožnosti"
+      ],
+      "links": [
+        {
+          "label": "Další článek 27. 9. 2013",
+          "url": "https://www.denik.cz/olomoucky-kraj/tendr-na-stavbu-akvaparku-v-jeseniku-konci-referendum-nebude-20130927-5ovn.html"
+        },
+        {
+          "label": "Další článek 22. 11. 2013",
+          "url": "https://www.denik.cz/ekonomika/banky-nechteji-jeseniku-pujcit-na-aquapark-20131122.html"
+        }
+      ],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn737140search6",
+        "turn737140search9",
+        "turn737140search10"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N29",
+      "title": "ALEF Jeseník – profesní stopa se jménem Petr Laštovica",
+      "url": "https://www.podnikatel.cz/rejstrik/alef-jesenik-spolecnost-s-rucenim-omezenym-s-r-o-46580158/",
+      "publisher": "Podnikatel.cz / rejstříkový agregátor",
+      "type": "Profesní stopa – neověřená identita",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015
+      ],
+      "summary": "Rejstříkový agregátor zachycuje historického jednatele Ing. Petra Laštovicu. K firmě je veřejně dohledatelná nabídka školení Sisyfos.",
+      "limitations": "Identita a souvislost se SRSS nejsou v tomto sběru spolehlivě propojeny. Neuvádět jako činnost SRSS a netvrdit autorství školení pouze na základě obchodního kontaktu.",
+      "people": [
+        "Petr Laštovica"
+      ],
+      "relationship": "Totožnost nebo vazba neověřena",
+      "verification": "Sekundární rejstříkový údaj",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Profesní historie",
+        "Kontrola totožnosti"
+      ],
+      "links": [
+        {
+          "label": "Obchodní nabídka školení – pouze doplňující stopa",
+          "url": "https://dodavatele.epoptavka.cz/28029-alef-jesenik-spolecnost-s-rucenim-omezenym-s-r-o/nabidka/54233-skoleni-sisyfos"
+        }
+      ],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn871176search7",
+        "turn871176search0"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N30",
+      "title": "SRSS: krajské zakázky komunitního plánování 2010–2015",
+      "url": "https://srssjesenik.cz/projekty/ukoncene-realizovane-sluzby/",
+      "publisher": "SRSS",
+      "type": "Historický přehled zakázek",
+      "years": [
+        2010,
+        2011,
+        2013,
+        2014,
+        2015
+      ],
+      "summary": "Vlastní přehled uvádí krajskou smlouvu 2010/03107/OIEP/DSM, další zakázku z roku 2013 a smlouvu 2014/01348/OIEP/DSM pro období 1. 5. 2014–30. 4. 2015. Tématem je metodická podpora, supervize a vzdělávání komunitního plánování.",
+      "limitations": "Jde o tvrzení realizátora; originální smlouvy kraje nebyly získány. Plánované hodiny nejsou doloženým skutečným výkonem. U ukončení zakázky 2013 se vlastní přehled a archiv liší mezi únorem a březnem 2014.",
+      "people": [
+        "Lenka Tichavská"
+      ],
+      "relationship": "SRSS – přímá zmínka",
+      "verification": "Vyhledávací index",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Olomoucký kraj",
+        "Historie",
+        "Zakázky",
+        "Metodická podpora"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn737890search1"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N31",
+      "title": "KRKOS a vzdělávání na Krajském úřadě – vlastní archiv SRSS",
+      "url": "https://srssjesenik.cz/",
+      "publisher": "SRSS",
+      "type": "Soubor dobových oznámení",
+      "years": [
+        2014,
+        2015
+      ],
+      "summary": "Archiv zachycuje krajskou koordinační skupinu KRKOS z 1. 4. 2015 pod metodickým vedením SRSS, s Lenkou Tichavskou a krajskou koordinátorkou Hanou Bodnarovou. Zmiňuje společnou fotografii. Obsahuje také oznámení kurzu Komunikační dovednosti na KÚ OK na 30. 6. 2014 a pozvání na Úvod do dluhového poradenství v roce 2015.",
+      "limitations": "Vlastní indexovaný archiv, nikoli tři nově stažené články. U kurzů oznámení dokládá nabídku, ne skutečnou účast. Originál fotografie KRKOS nezískán. Obsah homepage může být později měněn.",
+      "people": [
+        "Lenka Tichavská"
+      ],
+      "relationship": "SRSS – přímá zmínka",
+      "verification": "Vyhledávací index",
+      "published_at": null,
+      "event_date": "2015-04-01",
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Olomoucký kraj",
+        "KRKOS",
+        "Fotografie",
+        "Vzdělávání",
+        "Historie"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn559639search0"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N32",
+      "title": "Archiv SRSS – nesoulad v datu závěru krajské zakázky",
+      "url": "https://srssjesenik.cz/archiv/",
+      "publisher": "SRSS",
+      "type": "Archiv / faktická kontrola",
+      "years": [
+        2013,
+        2014
+      ],
+      "summary": "Archivní oznámení krajské zakázky zahájené 4. 2. 2013 uvádí ukončení v březnu 2014; jiná vlastní projektová stránka uvádí únor 2014.",
+      "limitations": "Rozpor není vyřešen. Před sjednocením dat vyžádat smlouvu a případné dodatky. Starší datum oznámení nelze samo považovat za potvrzení konečného harmonogramu.",
+      "people": [],
+      "relationship": "SRSS – přímá zmínka",
+      "verification": "Vyhledávací index",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Olomoucký kraj",
+        "Kontrola dat",
+        "Historie"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn426154search0"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N33",
+      "title": "Olomoucký kraj: sociální záležitosti – hlavní rozcestník",
+      "url": "https://www.olkraj.cz/socialni-zalezitosti",
+      "publisher": "Olomoucký kraj",
+      "type": "Úřední rozcestník",
+      "years": [],
+      "summary": "Veřejný vstup do plánování služeb, sociální práce, podpory bydlení a souvisejících krajských agend.",
+      "limitations": "Rozcestník sám není přímou zmínkou o SRSS. Slouží jako mapa dalšího dohledávání.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Olomoucký kraj"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn725068view1"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N34",
+      "title": "Olomoucký kraj: úplná řada střednědobých plánů",
+      "url": "https://www.olkraj.cz/socialni-zalezitosti/strednedobe-planovani-socialnich-sluzeb",
+      "publisher": "Olomoucký kraj",
+      "type": "Úřední rozcestník",
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "summary": "Rozcestník obsahuje odkazy na plány od roku 2008 po období 2024–2026 a na další podklady plánování.",
+      "limitations": "Nebyla přečtena všechna odkazovaná PDF; nelze z existence plánů odvodit jejich autorství SRSS.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Olomoucký kraj",
+        "Strategické dokumenty"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn921289view0"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N35",
+      "title": "Olomoucký kraj: střednědobý plán 2011–2014",
+      "url": "https://www.olkraj.cz/socialni-zalezitosti-strednedobe-planovani-socialnich-sluzeb/strednedoby-plan-rozvoje-socialnich-sluzeb-v-olomouckem-kraji-pro-roky-2011-2014",
+      "publisher": "Olomoucký kraj",
+      "type": "Strategický dokument – vstupní stránka",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "summary": "Vstupní stránka potvrzuje plán pro období 2011–2014. ",
+      "limitations": "Obsah PDF se nepodařilo spolehlivě načíst. Přímá zmínka o SRSS ani o zadaných osobách nebyla potvrzena; nepřisuzovat autorství. Datum schválení vést odděleně od platnosti.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": null,
+      "period": "Platnost 2011–2014",
+      "locator": null,
+      "tags": [
+        "Olomoucký kraj",
+        "Strategické dokumenty"
+      ],
+      "links": [
+        {
+          "label": "Odkaz na PDF – načtení selhalo",
+          "url": "https://www.olkraj.cz/get-file/21067"
+        }
+      ],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn177435view5"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N36",
+      "title": "Olomoucký kraj: střednědobý plán 2015–2017",
+      "url": "https://www.olkraj.cz/socialni-zalezitosti-strednedobe-planovani-socialnich-sluzeb/strednedoby-plan-rozvoje-socialnich-sluzeb-v-olomouckem-kraji-pro-roky-2015-2017",
+      "publisher": "Olomoucký kraj",
+      "type": "Strategický dokument – vstupní stránka",
+      "years": [
+        2015,
+        2016,
+        2017
+      ],
+      "summary": "Vstupní stránka potvrzuje plán pro období 2015–2017. Uvádí schválení 2014-09-19.",
+      "limitations": "Obsah PDF se nepodařilo spolehlivě načíst. Přímá zmínka o SRSS ani o zadaných osobách nebyla potvrzena; nepřisuzovat autorství. Datum schválení vést odděleně od platnosti.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": "2014-09-19",
+      "period": "Platnost 2015–2017",
+      "locator": null,
+      "tags": [
+        "Olomoucký kraj",
+        "Strategické dokumenty"
+      ],
+      "links": [
+        {
+          "label": "Odkaz na PDF – načtení selhalo",
+          "url": "https://www.olkraj.cz/get-file/22039"
+        }
+      ],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn177435view2"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N37",
+      "title": "Olomoucký kraj: střednědobý plán 2018–2020",
+      "url": "https://www.olkraj.cz/socialni-zalezitosti-strednedobe-planovani-socialnich-sluzeb/strednedoby-plan-rozvoje-socialnich-sluzeb-v-olomouckem-kraji-pro-roky-2018-2020",
+      "publisher": "Olomoucký kraj",
+      "type": "Strategický dokument – vstupní stránka",
+      "years": [
+        2018,
+        2019,
+        2020
+      ],
+      "summary": "Vstupní stránka potvrzuje plán pro období 2018–2020. Uvádí schválení 2017-02-27.",
+      "limitations": "Obsah PDF se nepodařilo spolehlivě načíst. Přímá zmínka o SRSS ani o zadaných osobách nebyla potvrzena; nepřisuzovat autorství. Datum schválení vést odděleně od platnosti.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": "2017-02-27",
+      "period": "Platnost 2018–2020",
+      "locator": null,
+      "tags": [
+        "Olomoucký kraj",
+        "Strategické dokumenty"
+      ],
+      "links": [
+        {
+          "label": "Odkaz na PDF – načtení selhalo",
+          "url": "https://www.olkraj.cz/get-file/56025"
+        }
+      ],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn177435view3"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N38",
+      "title": "Olomoucký kraj: střednědobý plán 2021–2023",
+      "url": "https://www.olkraj.cz/socialni-zalezitosti-strednedobe-planovani-socialnich-sluzeb/strednedoby-plan-rozvoje-socialnich-sluzeb-v-olomouckem-kraji-pro-roky-2021-2023",
+      "publisher": "Olomoucký kraj",
+      "type": "Strategický dokument – vstupní stránka",
+      "years": [
+        2021,
+        2022,
+        2023
+      ],
+      "summary": "Vstupní stránka potvrzuje plán pro období 2021–2023. Uvádí schválení 2019-12-16.",
+      "limitations": "Obsah PDF se nepodařilo spolehlivě načíst. Přímá zmínka o SRSS ani o zadaných osobách nebyla potvrzena; nepřisuzovat autorství. Datum schválení vést odděleně od platnosti.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": "2019-12-16",
+      "period": "Platnost 2021–2023",
+      "locator": null,
+      "tags": [
+        "Olomoucký kraj",
+        "Strategické dokumenty"
+      ],
+      "links": [
+        {
+          "label": "Odkaz na PDF – načtení selhalo",
+          "url": "https://www.olkraj.cz/get-file/71733"
+        }
+      ],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn177435view4"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N39",
+      "title": "Olomoucký kraj: střednědobý plán 2024–2026",
+      "url": "https://www.olkraj.cz/socialni-zalezitosti-strednedobe-planovani-socialnich-sluzeb/strednedoby-plan-rozvoje-socialnich-sluzeb-v-olomouckem-kraji-pro-roky-2024-2026",
+      "publisher": "Olomoucký kraj",
+      "type": "Strategický dokument – vstupní stránka",
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "summary": "Vstupní stránka potvrzuje plán pro období 2024–2026. Uvádí schválení 2022-12-12.",
+      "limitations": "Obsah PDF se nepodařilo spolehlivě načíst. Přímá zmínka o SRSS ani o zadaných osobách nebyla potvrzena; nepřisuzovat autorství. Datum schválení vést odděleně od platnosti.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": "2022-12-12",
+      "period": "Platnost 2024–2026",
+      "locator": null,
+      "tags": [
+        "Olomoucký kraj",
+        "Strategické dokumenty"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn465666view0"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N40",
+      "title": "Olomoucký kraj: akční plány a síť sociálních služeb",
+      "url": "https://www.olkraj.cz/socialni-zalezitosti-strednedobe-planovani-socialnich-sluzeb/akcni-plany-a-sit-socialnich-sluzeb-olomouckeho-kraje",
+      "publisher": "Olomoucký kraj",
+      "type": "Úřední rozcestník",
+      "years": [
+        2024,
+        2025
+      ],
+      "summary": "Veřejný přehled akčních plánů a příloh krajské sítě obsahuje dokumenty k rokům 2024 a 2025.",
+      "limitations": "Odkazy na síť a plány nejsou důkazem zařazení konkrétní služby SRSS. Každý rok a identifikátor služby ověřit v příslušné příloze.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Olomoucký kraj",
+        "Akční plány",
+        "Síť služeb"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn725068view0"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N41",
+      "title": "Olomoucký kraj: starší akční plány 2015–2024",
+      "url": "https://www.olkraj.cz/socialni-zalezitosti-strednedobe-planovani-socialnich-sluzeb-akcni-plany-a-sit-socialnich-sluzeb-olomouckeho-kraje/predchozi-dokumenty",
+      "publisher": "Olomoucký kraj",
+      "type": "Archiv prováděcích dokumentů",
+      "years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "summary": "Archiv obsahuje odkazy na roční akční plány 2015–2024 a starší síťové přílohy. Zvláštní prioritu mají plány 2015–2017, navazující na metodickou zakázku SRSS.",
+      "limitations": "Pokusy načíst vybrané přílohy selhaly. Žádná konkrétní stránka těchto PDF zde není vydávána za přečtenou.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Olomoucký kraj",
+        "Akční plány"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn921289view1"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N42",
+      "title": "Krajský projekt dostupnosti a kvality služeb – dokumentové přílohy",
+      "url": "https://www.olkraj.cz/projekty-olomouckeho-kraje-projekty-z-planovaciho-obdobi-eu-2007-2013-operacni-program-lidske-zdroje-a-zamestnanost-podpora-zajisteni-dostupnosti-a-kvality-socialnich-sluzeb-v-olomouckem-kraji/dokumenty",
+      "publisher": "Olomoucký kraj",
+      "type": "Historický projektový archiv",
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017
+      ],
+      "summary": "Archiv krajského projektu obsahuje metodické materiály a střednědobý plán 2015–2017. Je relevantní pro dohledání kontextu krajských zakázek SRSS.",
+      "limitations": "Vlastní PDF se nepodařilo načíst. Odkazovaný plán má jinou velikost než soubor u hlavní krajské stránky; neprohlašovat bez porovnání za stejnou verzi.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Olomoucký kraj",
+        "Historie",
+        "Metodická podpora"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn768303view0"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N43",
+      "title": "Krajánek / měsíčník Olomouckého kraje – roční archiv",
+      "url": "https://www.olkraj.cz/mesicnik-krajanek",
+      "publisher": "Olomoucký kraj",
+      "type": "Archiv zpravodaje",
+      "years": [
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "summary": "Oficiální archiv zpřístupňuje krajský měsíčník po ročnících včetně let požadovaných pro výroční zprávy.",
+      "limitations": "Archiv byl nalezen, nikoli kompletně pročten. Konkrétní článek o SRSS v jednotlivých číslech zatím potvrzen nebyl. Vybrané roční odkazy se nepodařilo otevřít.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Olomoucký kraj",
+        "Zpravodaje"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn177435view0"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N44",
+      "title": "Naše město Jeseník – archiv městského zpravodaje",
+      "url": "https://jesenik.cz/cz/mesto-a-mestsky-urad/347-mesicnik-nase-mesto.html",
+      "publisher": "Město Jeseník",
+      "type": "Archiv zpravodaje",
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "summary": "Oficiální městská navigace odkazuje na archiv měsíčníku Naše město. Prioritou jsou zahájení poraden a změny provozu.",
+      "limitations": "Archiv se načítal bez použitelného textu. Neznamená to, že neobsahuje zmínky; obsah jednotlivých čísel nebyl kompletně zkontrolován.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Jeseník",
+        "Zpravodaje"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn553645view0",
+        "turn397496view1"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N45",
+      "title": "Naše město – duben 2025, soubor k prověření",
+      "url": "https://jesenik.cz/cz/download/44236-nase-mesto-duben-2025.html",
+      "publisher": "Město Jeseník",
+      "type": "Číslo městského zpravodaje",
+      "years": [
+        2025
+      ],
+      "summary": "Byla ověřena existence městské stránky s dubnovým číslem zpravodaje 2025.",
+      "limitations": "PDF se nepodařilo načíst. Přítomnost článku o SRSS v tomto čísle není potvrzena; dřívější doporučení nesmí být zaměněno za nález konkrétního článku.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": null,
+      "period": "Duben 2025",
+      "locator": null,
+      "tags": [
+        "Jeseník",
+        "Zpravodaje"
+      ],
+      "links": [
+        {
+          "label": "PDF – načtení selhalo",
+          "url": "https://jesenik.cz/system/download.php?id=44236&lang=cz&mid=1761"
+        }
+      ],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn414660view0"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N46",
+      "title": "Litovelské noviny – archiv jednotlivých vydání",
+      "url": "https://www.litovel.eu/cs/mesto/informace-o-meste/budte-v-obraze/litovelske-noviny/archiv-novin.html",
+      "publisher": "Město Litovel",
+      "type": "Archiv zpravodaje",
+      "years": [
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "summary": "Archiv nabízí jednotlivá vydání od roku 2008 včetně ročníků 2016–2025. Byly zkusmo otevřeny ročníky 10/2017, 1/2018, 10/2019 a 11/2019.",
+      "limitations": "Prohlížeče těchto čísel se nepodařilo načíst. Konkrétní zmínka o SRSS zatím potvrzena nebyla. Datum vytvoření dnešní archivní stránky není datem vydání starších čísel.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Litovel",
+        "Zpravodaje"
+      ],
+      "links": [
+        {
+          "label": "10/2017",
+          "url": "https://www.litovel.eu/filemanager/pdf-viewer/html5/flipbook_new.inc.php?app=2065&fileID=356448"
+        },
+        {
+          "label": "1/2018",
+          "url": "https://www.litovel.eu/filemanager/pdf-viewer/html5/flipbook_new.inc.php?app=2065&fileID=367125"
+        },
+        {
+          "label": "10/2019",
+          "url": "https://www.litovel.eu/filemanager/pdf-viewer/html5/flipbook_new.inc.php?app=2065&fileID=445615"
+        },
+        {
+          "label": "11/2019",
+          "url": "https://www.litovel.eu/filemanager/pdf-viewer/html5/flipbook_new.inc.php?app=2065&fileID=477039"
+        }
+      ],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn838369view2"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N47",
+      "title": "Prostějovské radniční listy – ročníky 2017 a 2019",
+      "url": "https://www.prostejov.eu/cs/obcan/prostejovske-radnicni-listy/radnicni-listy-2019.html",
+      "publisher": "Statutární město Prostějov",
+      "type": "Archiv zpravodaje",
+      "years": [
+        2017,
+        2019
+      ],
+      "summary": "Městská navigace obsahuje ročníky 2017 a 2019, relevantní k zahájení a závěru plánovacích projektů.",
+      "limitations": "Přímé otevření ročních stránek selhalo. Není doložen konkrétní článek ani jeho stránka; vyhledat jména a názvy projektů v PDF jednotlivých čísel.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Prostějov",
+        "Zpravodaje"
+      ],
+      "links": [
+        {
+          "label": "Ročník 2017",
+          "url": "https://www.prostejov.eu/cs/obcan/prostejovske-radnicni-listy/radnicni-listy-2017.html"
+        },
+        {
+          "label": "Zdrojová městská stránka s roční navigací",
+          "url": "https://www.prostejov.eu/cs/obcan/magistrat/odbory-magistratu/odbor-socialnich-veci/"
+        }
+      ],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn944384view2"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N48",
+      "title": "Prostějov: katalog vydaný v září 2023 – kontrola verzí",
+      "url": "https://www.prostejov.eu/cs/obcan/katalog-socialnich-sluzeb-na-prostejovsku.html",
+      "publisher": "Statutární město Prostějov",
+      "type": "Městská stránka katalogu",
+      "years": [
+        2023
+      ],
+      "summary": "Město 26. 10. 2023 odkazuje na aktualizovaný katalog vydaný v září 2023 a na elektronickou verzi.",
+      "limitations": "Novější katalog nesmí být vydáván za nezměněný výstup SRSS z roku 2019. Vlastní role SRSS v aktualizaci 2023 na této stránce doložena není.",
+      "people": [],
+      "relationship": "Pouze tematický kontext",
+      "verification": "Přečtený zdroj",
+      "published_at": "2023-10-26",
+      "event_date": null,
+      "period": "Vydání září 2023",
+      "locator": null,
+      "tags": [
+        "Prostějov",
+        "Kontrola verzí",
+        "Katalogy"
+      ],
+      "links": [
+        {
+          "label": "Elektronický katalog",
+          "url": "https://sockat.prostejov.eu/"
+        }
+      ],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn838369view3"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": false
+    },
+    {
+      "id": "N49",
+      "title": "Jeseník, Vlčice a Mikroregion Žulovsko – plán sociálního začleňování 2022–2027",
+      "url": "https://jesenik.cz/cz/mesto-a-mestsky-urad/707-plan-socialniho-zaclenovani.html",
+      "publisher": "Město Jeseník",
+      "type": "Strategický dokument – rozcestník",
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027
+      ],
+      "summary": "Městská stránka nabízí plán sociálního začleňování pro společné území Jeseníku, Vlčic a Mikroregionu Žulovsko na období 2022–2027.",
+      "limitations": "Obsah dokumentu nebyl načten. Možné zmínky o dluhové problematice, SRSS či osobách je nutné ověřit uvnitř PDF.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": null,
+      "period": "2022–2027",
+      "locator": null,
+      "tags": [
+        "Jesenicko",
+        "Žulovsko",
+        "Strategické dokumenty"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn667402view0"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N50",
+      "title": "Jeseník – akční plán sociálního začleňování",
+      "url": "https://jesenik.cz/cz/mesto-a-mestsky-urad/706-akcni-plan-socialniho-zaclenovani-jesenik.html",
+      "publisher": "Město Jeseník",
+      "type": "Prováděcí dokument – rozcestník",
+      "years": [],
+      "summary": "Oficiální stránka zveřejňuje přílohu akčního plánu sociálního začleňování.",
+      "limitations": "V této rešerši nebyl přečten vlastní soubor ani bezpečně přiřazen rok jeho platnosti. Neuvádět konkrétní závazky SRSS bez kontroly přílohy.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Jeseník",
+        "Akční plány"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn871176view2"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N51",
+      "title": "Jesenicko – střednědobý plán sociálních služeb 2026–2030",
+      "url": "https://jesenik.cz/cz/mesto-a-mestsky-urad/727-strednedoby-plan-socialnich-sluzeb-na-jesenicku-2026-2030.html",
+      "publisher": "Město Jeseník",
+      "type": "Strategický dokument – rozcestník",
+      "years": [
+        2026,
+        2027,
+        2028,
+        2029,
+        2030
+      ],
+      "summary": "Městská stránka nabízí plán sociálních služeb pro období 2026–2030.",
+      "limitations": "Mimo hlavní období 2016–2025. PDF nebylo přečteno; nepřenášet novější personální či síťové údaje zpětně.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": null,
+      "period": "2026–2030",
+      "locator": null,
+      "tags": [
+        "Jesenicko",
+        "Strategické dokumenty"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn667402view2"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N52",
+      "title": "Zábřeh – sociální oblast, komunitní plánování a katalog",
+      "url": "https://zabreh.cz/socialni-oblast-a-zdravotnictvi/ds-1419/p1%3D21169",
+      "publisher": "Město Zábřeh",
+      "type": "Městský tematický rozcestník",
+      "years": [],
+      "summary": "Indexovaný městský rozcestník obsahuje komunitní plánování a katalog sociálních služeb. Relevantní k dohledání historické metodické spolupráce.",
+      "limitations": "Konkrétní obsah příloh a přímá zmínka SRSS v nich v tomto sběru potvrzena nebyla.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Vyhledávací index",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Zábřeh",
+        "Strategické dokumenty"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn938322search3"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    },
+    {
+      "id": "N53",
+      "title": "Prostějov – strategické dokumenty a projekty ESF",
+      "url": "https://www.prostejov.eu/cs/podnikatel/strategicke-dokumenty/",
+      "publisher": "Statutární město Prostějov",
+      "type": "Městský rozcestník",
+      "years": [],
+      "summary": "Oficiální rozcestník nabízí strategické materiály města a odkaz na projekty spolufinancované z ESF.",
+      "limitations": "Nejde sám o potvrzenou zmínku SRSS. Jednotlivé plány, verze a přílohy vyžadují obsahovou kontrolu.",
+      "people": [],
+      "relationship": "Archiv k cílenému prověření",
+      "verification": "Ověřen rozcestník / metadata",
+      "published_at": null,
+      "event_date": null,
+      "period": null,
+      "locator": null,
+      "tags": [
+        "Prostějov",
+        "Strategické dokumenty"
+      ],
+      "links": [],
+      "event_group": null,
+      "web_reference_ids": [
+        "turn432590view0"
+      ],
+      "checked_at": "2026-09-23",
+      "downloaded": false,
+      "local_path": null,
+      "queue": true
+    }
+  ],
+  "assets": [
+    {
+      "id": "A01",
+      "title": "Workshop 2019 – fotodokumentace, strany 4–10",
+      "source_id": "N01",
+      "url": "https://www.konice.charita.cz/res/archive/008/001029.pdf?seek=1611613175#page=4",
+      "type": "Fotoreportáž v PDF",
+      "years": [
+        2019
+      ],
+      "page": 4,
+      "event_date": "2019-09-30",
+      "verification": "Strana 4 vizuálně ověřena; ostatní podle textových popisků",
+      "caption_suggestion": "Závěrečný workshop plánujících lokalit, Prostějov, 30. 9. 2019.",
+      "limitations": "Nejde o sedm unikátních fotografií; sedm je počet stran fotografické části. Extrahovat originály, ověřit autorský kredit a duplicity.",
+      "author": null,
+      "permission": null,
+      "downloaded": false,
+      "local_path": null,
+      "sha256": null,
+      "perceptual_hash": null,
+      "duplicate_group": null,
+      "checked_at": "2026-09-23"
+    },
+    {
+      "id": "A02",
+      "title": "Konicko – organizační role Petra Laštovicy a Lenky Tichavské",
+      "source_id": "N02",
+      "url": "https://www.konice.charita.cz/res/archive/001024.pdf?seek=1611613119#page=8",
+      "type": "Textová prezentace / dokumentový výřez",
+      "years": [
+        2019
+      ],
+      "page": 8,
+      "event_date": null,
+      "verification": "Přečten text; obrazový náhled selhal",
+      "caption_suggestion": "Organizační zabezpečení projektu Konicka – výřez z dobové prezentace.",
+      "limitations": "Není fotografie osob. Nepoužívat jako jejich portrét.",
+      "author": null,
+      "permission": null,
+      "downloaded": false,
+      "local_path": null,
+      "sha256": null,
+      "perceptual_hash": null,
+      "duplicate_group": null,
+      "checked_at": "2026-09-23"
+    },
+    {
+      "id": "A03",
+      "title": "Konice – galerie kurzu Lenky Tichavské",
+      "source_id": "N06",
+      "url": "https://www.konice.charita.cz/Nase-dalsi-aktivity/komunitni-planovani/2017-2019-podpora-strednedobeho-planovani-sociach-sluzeb-na-konicu/fotogalerie/",
+      "type": "Galerie k získání",
+      "years": [
+        2017,
+        2018,
+        2019
+      ],
+      "page": null,
+      "event_date": null,
+      "verification": "Potvrzen text kurzu, nikoli jednotlivé obrazové soubory",
+      "caption_suggestion": "Kurz Úvod do komunitního plánování sociálních služeb, Charita Konice; datum je třeba doplnit.",
+      "limitations": "Žádný přesný rok nepřiřazovat jen podle názvu projektové rubriky.",
+      "author": null,
+      "permission": null,
+      "downloaded": false,
+      "local_path": null,
+      "sha256": null,
+      "perceptual_hash": null,
+      "duplicate_group": null,
+      "checked_at": "2026-09-23"
+    },
+    {
+      "id": "A04",
+      "title": "JPD II – dobový městský leták",
+      "source_id": "N12",
+      "url": "https://jesenik.cz/system/download.php?id=25097&lang=cz&mid=1761",
+      "type": "Leták PDF",
+      "years": [
+        2020
+      ],
+      "page": 1,
+      "event_date": null,
+      "verification": "Přečten text obou stran; grafický náhled selhal",
+      "caption_suggestion": "Informační leták Dluhové poradny Jeseník, zveřejněný u městské zprávy z února 2020.",
+      "limitations": "Není fotografie. Grafiku neoznačovat jako původní podobu z jiné etapy projektu.",
+      "author": null,
+      "permission": null,
+      "downloaded": false,
+      "local_path": null,
+      "sha256": null,
+      "perceptual_hash": null,
+      "duplicate_group": null,
+      "checked_at": "2026-09-23"
+    },
+    {
+      "id": "A05",
+      "title": "KRKOS 2015 – společná fotografie zmíněná v archivu",
+      "source_id": "N31",
+      "url": "https://srssjesenik.cz/",
+      "type": "Fotografická stopa",
+      "years": [
+        2015
+      ],
+      "page": null,
+      "event_date": "2015-04-01",
+      "verification": "Zmínka o společné fotografii v indexu",
+      "caption_suggestion": "Setkání krajské koordinační skupiny KRKOS, 1. 4. 2015.",
+      "limitations": "Originální soubor nebyl získán; datum vychází z popisu události.",
+      "author": null,
+      "permission": null,
+      "downloaded": false,
+      "local_path": null,
+      "sha256": null,
+      "perceptual_hash": null,
+      "duplicate_group": null,
+      "checked_at": "2026-09-23"
+    },
+    {
+      "id": "A06",
+      "title": "Hanácká Drbna 2020 – pouze ilustrační obrázek",
+      "source_id": "N13",
+      "url": "https://hanacka.drbna.cz/spolecnost/17383-v-jeseniku-funguje-dluhova-poradna-pomaha-zadluzenym-bezplatne.html",
+      "type": "Ilustrační mediální snímek",
+      "years": [
+        2020
+      ],
+      "page": null,
+      "event_date": null,
+      "verification": "Kredit z indexovaného článku",
+      "caption_suggestion": "",
+      "limitations": "Zdroj uveden jesenik.org. Nepoužívat jako dokumentaci konkrétní konzultace nebo portrét týmu.",
+      "author": null,
+      "permission": null,
+      "downloaded": false,
+      "local_path": null,
+      "sha256": null,
+      "perceptual_hash": null,
+      "duplicate_group": null,
+      "checked_at": "2026-09-23"
+    },
+    {
+      "id": "A07",
+      "title": "Metro 2025 – ilustrační Profimedia",
+      "source_id": "N15",
+      "url": "https://www.metro.cz/kraje/olomoucky-kraj/dluznikum-na-jesenicku-pomuze-nova-poradna.A250304_145620_metro-olomouc-zpravy_hrs",
+      "type": "Ilustrační mediální snímek",
+      "years": [
+        2025
+      ],
+      "page": null,
+      "event_date": null,
+      "verification": "Kredit z indexovaného článku",
+      "caption_suggestion": "",
+      "limitations": "Profimedia není volná obrazová banka. Originál ani licence nejsou získány.",
+      "author": null,
+      "permission": null,
+      "downloaded": false,
+      "local_path": null,
+      "sha256": null,
+      "perceptual_hash": null,
+      "duplicate_group": null,
+      "checked_at": "2026-09-23"
+    },
+    {
+      "id": "A08",
+      "title": "Deník 2012 – ilustrační snímek",
+      "source_id": "N16",
+      "url": "https://www.denik.cz/olomoucky-kraj/lidem-bez-prace-ci-s-dluhy-pomohou-profesionalove-20120903-50sd.html",
+      "type": "Ilustrační mediální snímek",
+      "years": [
+        2012
+      ],
+      "page": null,
+      "event_date": null,
+      "verification": "Kredit z indexovaného článku",
+      "caption_suggestion": "",
+      "limitations": "Kredit DENÍK/Milan Holakovský. Žádná prokázaná dokumentace pracovníků SRSS.",
+      "author": null,
+      "permission": null,
+      "downloaded": false,
+      "local_path": null,
+      "sha256": null,
+      "perceptual_hash": null,
+      "duplicate_group": null,
+      "checked_at": "2026-09-23"
+    },
+    {
+      "id": "A09",
+      "title": "ČTK / iDNES 2025 – regionální obrazový kontext",
+      "source_id": "N17",
+      "url": "https://www.idnes.cz/olomouc/zpravy/pomoc-stat-zaplavy-jesenicko-dluhy.A250214_095733_olomouc-zpravy_hrs",
+      "type": "Mediální fotografie – kontext",
+      "years": [
+        2025
+      ],
+      "page": null,
+      "event_date": null,
+      "verification": "Kredit z indexovaného článku",
+      "caption_suggestion": "",
+      "limitations": "Filip Fojtík/MAFRA. Nejde o potvrzený snímek SRSS; oddělit práva k textu ČTK a k fotografii.",
+      "author": null,
+      "permission": null,
+      "downloaded": false,
+      "local_path": null,
+      "sha256": null,
+      "perceptual_hash": null,
+      "duplicate_group": null,
+      "checked_at": "2026-09-23"
+    },
+    {
+      "id": "A10",
+      "title": "Konicko – obálka plánu 2019–2021",
+      "source_id": "N03",
+      "url": "https://www.konice.charita.cz/res/archive/008/001025.pdf?seek=1611613129#page=1",
+      "type": "Dokumentový výřez",
+      "years": [
+        2019,
+        2020,
+        2021
+      ],
+      "page": 1,
+      "event_date": null,
+      "verification": "Přečten text obálky",
+      "caption_suggestion": "Střednědobý plán rozvoje sociálních služeb Konicka 2019–2021.",
+      "limitations": "Plánované použití obálky není nová fotografie. Ověřit grafickou podobu a práva před exportem.",
+      "author": null,
+      "permission": null,
+      "downloaded": false,
+      "local_path": null,
+      "sha256": null,
+      "perceptual_hash": null,
+      "duplicate_group": null,
+      "checked_at": "2026-09-23"
+    },
+    {
+      "id": "A11",
+      "title": "Konicko – titulní strana katalogu",
+      "source_id": "N04",
+      "url": "https://www.konice.charita.cz/res/archive/001028.pdf?seek=1611613172#page=1",
+      "type": "Dokumentový výřez",
+      "years": [
+        2019
+      ],
+      "page": 1,
+      "event_date": null,
+      "verification": "Přečten text obálky",
+      "caption_suggestion": "Katalog poskytovatelů sociálních a návazných služeb Konicka.",
+      "limitations": "Upřednostnit před opakováním stejné workshopové fotografie; originál je nutné získat.",
+      "author": null,
+      "permission": null,
+      "downloaded": false,
+      "local_path": null,
+      "sha256": null,
+      "perceptual_hash": null,
+      "duplicate_group": null,
+      "checked_at": "2026-09-23"
+    },
+    {
+      "id": "A12",
+      "title": "Mohelnicko – elektronický výstup projektu",
+      "source_id": "N08",
+      "url": "https://katalog.mohelnice.cz/",
+      "type": "Screenshot k pořízení",
+      "years": [
+        2019
+      ],
+      "page": null,
+      "event_date": null,
+      "verification": "Přečten web; screenshot nevytvořen",
+      "caption_suggestion": "",
+      "limitations": "Dnešní screenshot musí mít dnešní datum zachycení. Není důkazem přesné vizuální podoby webu roku 2019.",
+      "author": null,
+      "permission": null,
+      "downloaded": false,
+      "local_path": null,
+      "sha256": null,
+      "perceptual_hash": null,
+      "duplicate_group": null,
+      "checked_at": "2026-09-23"
+    }
+  ],
+  "checks": [
+    {
+      "id": "C01",
+      "topic": "Petr Laštovica – přímá profesní role nalezena",
+      "action": "Prioritní doklad N02, PDF str. 8. Odlišit od neověřených občanských a podnikatelských shod jména N28–N29."
+    },
+    {
+      "id": "C02",
+      "topic": "Autorství vs. role",
+      "action": "N03: autorem dokumentu Jan Fukala, metodičkou Lenka Tichavská. N02: projektový manažer Petr Laštovica. Role neslučovat."
+    },
+    {
+      "id": "C03",
+      "topic": "Krajská zakázka 2013",
+      "action": "Rozpor únor/březen 2014 v N30–N32 rozhodnout až podle smlouvy a dodatků."
+    },
+    {
+      "id": "C04",
+      "topic": "Konicko 2019 – plánovaný konec vs. pozdější událost",
+      "action": "N05 uvádí plán 31. 8. 2019; N01 dokládá workshop 30. 9. 2019. Zachovat obě časové informace, ověřit konečný harmonogram."
+    },
+    {
+      "id": "C05",
+      "topic": "Krajské plány",
+      "action": "N35–N39: uvádět pouze ověřené metadata. SRSS neoznačovat jako autora žádného krajského plánu bez podkladu v dokumentu."
+    },
+    {
+      "id": "C06",
+      "topic": "Jména ve fotografiích",
+      "action": "Jména přebírat jen z dobových popisků, nikoli z odhadu obličejů. Popisek hosta neznamená, že jde o zaměstnance SRSS."
+    },
+    {
+      "id": "C07",
+      "topic": "Novější katalogy",
+      "action": "Prostějovská verze vydaná v září 2023 není automaticky verzí z roku 2019; dnešní screenshot označit datem pořízení."
+    },
+    {
+      "id": "C08",
+      "topic": "Datum kurzu",
+      "action": "N06: 15 účastníků je doložený údaj jednoho kurzu. Den ani konkrétní rok nedoložen. Nezařazovat odhadem."
+    },
+    {
+      "id": "C09",
+      "topic": "ČTK",
+      "action": "N17 je kontext regionu, nikoli potvrzený agenturní článek o SRSS. Přímý článek ČTK o SRSS zatím zůstává nedoložen."
+    },
+    {
+      "id": "C10",
+      "topic": "Zpravodaje",
+      "action": "N43–N47 evidují archivy a vybraná čísla k získání. Nepočítat je jako nalezené konkrétní články o organizaci."
+    },
+    {
+      "id": "C11",
+      "topic": "Jiří Kovalčík",
+      "action": "Historické členství v SRSS je zatím ze sekundárního rejstříku N19. Městská a ředitelská činnost ve Sněžence není činnost SRSS."
+    },
+    {
+      "id": "C12",
+      "topic": "Martina Mařáková / Fafílková",
+      "action": "Dvojí jméno je uvedeno v profesním profilu; projekt MAS potvrzuje kontakt, nikoli autorství všech příloh nebo práci pro SRSS."
+    },
+    {
+      "id": "C13",
+      "topic": "Fotografické soubory",
+      "action": "V tomto rozšíření nebyly staženy originální fotografie. A01–A12 jsou obrazové podklady či stopy, nikoli 12 unikátních snímků."
+    },
+    {
+      "id": "C14",
+      "topic": "Pravdivá datace výročních zpráv",
+      "action": "Rok X+1 je očekávaný následující rok, nikoli důkaz původního vydání. Nepravdivě neměnit metadata, tiráž ani dataci rekonstrukce."
+    },
+    {
+      "id": "C15",
+      "topic": "Účetní přílohy",
+      "action": "Při budoucí úpravě vyjmout detailní účetní soupisky z hlavních zpráv, originály zachovat pro samostatnou přílohu. Toto rozšíření zprávy neupravovalo."
+    }
+  ],
+  "coverage": [
+    {
+      "area": "Olomoucký kraj / KÚ",
+      "result": "Otevřeny sociální rozcestníky, řada plánů, archiv akčních plánů a krajský měsíčník.",
+      "limit": "U vybraných PDF selhalo načtení; konkrétní zmínky uvnitř těchto souborů nepotvrzeny.",
+      "next": "Dohledat smlouvy 2010/03107/OIEP/DSM a 2014/01348/OIEP/DSM; zápisy KRKOS; roční akční plány."
+    },
+    {
+      "area": "Partnerské projekty Konicka",
+      "result": "Přečteny čtyři PDF a partnerské stránky; konkrétní role i fotografická část.",
+      "limit": "Přesný den kurzu a autorství fotografií neověřeny; originály snímků nestaženy.",
+      "next": "Získat média v původním rozlišení a oprávnění; propojit s existujícími snímky výročních zpráv."
+    },
+    {
+      "area": "Městské a obecní zpravodaje",
+      "result": "Nalezeny archivy Jeseníku, Litovle, Prostějova a Olomouckého kraje.",
+      "limit": "Není dokončeno procházení všech čísel 2016–2025; vybrané prohlížeče a PDF nešly načíst.",
+      "next": "Priorita: Jeseník 1/2017, 2–3/2020, 1–2/2021, 3–4/2025; Litovel 9–12/2017 a 9–12/2019; Prostějov 12/2017 a 10/2019. Jde o vyhledávací prioritu, nikoli potvrzené články."
+    },
+    {
+      "area": "Regionální média",
+      "result": "Nalezeny články Deníku, Hanácké Drbny a Metra; kontextový text ČTK/iDNES.",
+      "limit": "Část obsahu jen ve vyhledávacím indexu; ilustrace nejsou dokumentací SRSS.",
+      "next": "Získat autorizované originály článků a rozlišit agenturní text od fotografických práv."
+    },
+    {
+      "area": "Osoby",
+      "result": "Primární profesní doklady pro Tichavskou, Horkého, Laštovicu a Fafílkovou; Kovalčík doložen v jiných veřejných rolích.",
+      "limit": "Nejsou rekonstruovány kompletní pracovní životopisy ani právní vztahy všech osob k SRSS.",
+      "next": "Ověřit historické orgány v úplném rejstříku a nezaměňovat osoby stejného jména."
+    }
+  ],
+  "legacy": {
+    "metadata": {
+      "nazev": "SRSS – rešeršní katalog webu",
+      "datum_rešerše": "2026-09-23",
+      "rozsah": "Web srssjesenik.cz; těžiště 2016–2025, starší obsah zvlášť",
+      "metoda": "Webové vyhledávání v indexovaném obsahu, cílené dotazy na stránky a přílohy.",
+      "omezeni": "Přímé načtení originálních stránek a souborů, RSS, sitemap a veřejného mediálního API selhalo. Žádné nové fotografické soubory nebyly staženy. Katalog není úplná kopie webu ani audit všech nahraných výročních zpráv.",
+      "pocty": {
+        "zdroje": 45,
+        "dokumentove_odkazy": 36,
+        "obrazove_okruhy": 9,
+        "nove_stazene_fotografie": 0
+      }
+    },
+    "zdroje": [
+      {
+        "id": "S01",
+        "typ": "Článek",
+        "roky": "2016",
+        "publikovano": "2016-11-14",
+        "datum_udalosti": "2016-11-07",
+        "nazev": "Nově otevřena Dluhová poradna Jeseník",
+        "zjisteni": "Zahájení 7. 11. 2016; K. Čapka 1147. Tři poradci a právník; možnost návštěvy klienta a finanční vzdělávání. Projekt CZ.03.2.60/0.0/0.0/15_042/0003827.",
+        "vyuziti": "Zahájení služby a její dostupnost.",
+        "zdroj_url": "https://srssjesenik.cz/nove-otevrena-dluhova-poradna-jesenik/",
+        "citacni_reference": "turn442888search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Personální popis není údaj o ročních přepočtených úvazcích. Článek sám nedokládá počty klientů ani snímek otevření."
+      },
+      {
+        "id": "S02",
+        "typ": "Článek",
+        "roky": "2020",
+        "publikovano": "2020-07-27",
+        "datum_udalosti": "2020-01-01",
+        "nazev": "Jesenicko proti dluhům II",
+        "zjisteni": "Pokračování poradny na Palackého 1341/2; finanční gramotnost. Reg. č. CZ.03.2.60/0.0/0.0/18_088/0010305. Původně uveden konec 30. 6. 2022.",
+        "vyuziti": "Projekt a nabídka služeb.",
+        "zdroj_url": "https://srssjesenik.cz/jesenicko-proti-dluhum-ii/",
+        "citacni_reference": "turn689352search0",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Pro závěr v roce 2022 použít aktualizaci S04; neměnit zpětně dobové oznámení."
+      },
+      {
+        "id": "S03",
+        "typ": "Článek",
+        "roky": "2021",
+        "publikovano": "2021-01-14",
+        "datum_udalosti": "2021-01",
+        "nazev": "Dluhová poradna Jeseník se přestěhovala",
+        "zjisteni": "Od ledna 2021 Lipovská 83/8. Článek uvádí dostupnost pomoci i během covidu.",
+        "vyuziti": "Provoz poradny a změna pracoviště.",
+        "zdroj_url": "https://srssjesenik.cz/dluhova-poradna-jesenik-se-prestehovala/",
+        "citacni_reference": "turn703160search0",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Jde o pracoviště, nikoli automaticky o změnu sídla organizace."
+      },
+      {
+        "id": "S04",
+        "typ": "Provozní a projektová stránka",
+        "roky": "2021;2022",
+        "publikovano": "",
+        "datum_udalosti": "2022-06-30;2022-09-30",
+        "nazev": "Dluhová poradna Jeseník – ukončení a evaluace",
+        "zjisteni": "Provoz poradny skončil 30. 6. 2022. Besedy byly prodlouženy do 30. 9. 2022; tento den skončil celý JPD II. Odkazy na tři evaluace.",
+        "vyuziti": "Rozlišit provoz služby, navazující besedy a konec projektu.",
+        "zdroj_url": "https://srssjesenik.cz/dluhova-poradna/",
+        "citacni_reference": "turn644758search1",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Datum události není doloženým datem zveřejnění stránky. Text je postupně aktualizovaný."
+      },
+      {
+        "id": "S05",
+        "typ": "Článek",
+        "roky": "2023;2024;2025",
+        "publikovano": "2023-10-10",
+        "datum_udalosti": "2023-02-01–2026-01-31",
+        "nazev": "Poskytování dluhového a pracovního poradenství na Osoblažsku II",
+        "zjisteni": "Realizátor Osoblažský cech z.ú.; SRSS jako partner zajišťuje dluhové poradenství. Projekt CZ.03.02.01/00/22_018/0000779; uvedený harmonogram 1. 2. 2023–31. 1. 2026.",
+        "vyuziti": "Partnerství a odborná činnost mimo Jesenicko.",
+        "zdroj_url": "https://srssjesenik.cz/poskytovani-dluhoveho-a-pracovniho-poradenstvi-na-osoblazsku-ii/",
+        "citacni_reference": "turn703160search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Harmonogram nepředstavuje samostatný výkaz činnosti za 2024 či 2025. Nezaměňovat s JPD III."
+      },
+      {
+        "id": "S06",
+        "typ": "Článek",
+        "roky": "2025",
+        "publikovano": "2025-02-20",
+        "datum_udalosti": "2025-02-01",
+        "nazev": "Jesenicko proti dluhům III",
+        "zjisteni": "Poradna zahájena 1. 2. 2025; 28. října 896/19. Projekt CZ.03.02.01/00/24_065/0004961, OPZ+. Odkaz na leták.",
+        "vyuziti": "Nová etapa poradny; dobová komunikace služby.",
+        "zdroj_url": "https://srssjesenik.cz/jesenicko-proti-dluhum-iii/",
+        "citacni_reference": "turn571034search0",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Článek sám neobsahuje vyhodnocení celého roku ani konečné výsledky projektu."
+      },
+      {
+        "id": "S07",
+        "typ": "Článek",
+        "roky": "2019",
+        "publikovano": "2019-04-27",
+        "datum_udalosti": "2019-04-27",
+        "nazev": "Výzva OPZ 106 pro střednědobé plánování",
+        "zjisteni": "Informace o nové výzvě a vyjádření SRSS k omezení návazné podpory dříve podpořených lokalit.",
+        "vyuziti": "Metodická a informační činnost, ne výsledek dotační žádosti.",
+        "zdroj_url": "https://srssjesenik.cz/nova-vyzva-na-strednedobe-planovani-rozvoje-socialnich-sluzeb-je-vyhlasena/",
+        "citacni_reference": "turn689352search1",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Záměr intervenovat není dokladem změny výzvy nebo úspěšného získání dotace."
+      },
+      {
+        "id": "S08",
+        "typ": "Výzva k nabídkám",
+        "roky": "2018;2019",
+        "publikovano": "2018-03-02",
+        "datum_udalosti": "2018-03-02;plán dodání 2019-01-31",
+        "nazev": "Výzkum potřebnosti sociálních služeb – zakázka 12159",
+        "zjisteni": "Výzkum pro Prostějovsko, Litovelsko a Mohelnicko. Projekty končí čísly 0006528, 0006530 a 0006549. Předpokládaná cena 553 719 Kč bez DPH.",
+        "vyuziti": "Výzkumná část komunitního plánování.",
+        "zdroj_url": "https://srssjesenik.cz/srss-o-p-s-zverejnuje-vyzvu-k-podani-nabidek/",
+        "citacni_reference": "turn226764search1",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Vyhlášení a plánovaná cena nejsou uzavřená smlouva, skutečná úhrada ani doklad dokončení."
+      },
+      {
+        "id": "S09",
+        "typ": "Projektová stránka",
+        "roky": "2017;2018;2019",
+        "publikovano": "",
+        "datum_udalosti": "2017-09-01",
+        "nazev": "SPRSS SO ORP Litovel – ukončen",
+        "zjisteni": "SRSS a město Litovel; CZ.03.2.63/0.0/0.0/16_063/0006530. Zahájení 1. 9. 2017. Odkazy na analýzu 2018, výzkum 2019 a plán 2020–2022.",
+        "vyuziti": "Projektové aktivity, analytické a plánovací výstupy.",
+        "zdroj_url": "https://srssjesenik.cz/sprss-so-orp-litovel/",
+        "citacni_reference": "turn484726search1",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Obsah příloh je nutné dočíst. Období platnosti plánu není automaticky obdobím jeho tvorby."
+      },
+      {
+        "id": "S10",
+        "typ": "Přehled partnerství",
+        "roky": "2017;2018;2019;2021;2022;2023;2024;2025",
+        "publikovano": "",
+        "datum_udalosti": "2021-01-01;2023-02-01",
+        "nazev": "SRSS – partner",
+        "zjisteni": "Starší projekt Osoblažska: SRSS partnerem od 1. 1. 2021. Dále Osoblažsko II a Podpora SPRSS Konicka; u Konicka je příjemcem Charita Konice.",
+        "vyuziti": "Odlišit vlastní projekty od partnerských.",
+        "zdroj_url": "https://srssjesenik.cz/srss-o-p-s-partner/",
+        "citacni_reference": "turn703160search3",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Starší projekt Osoblažska běžel 2020–2022, ale partnerství SRSS je doloženo až od 2021."
+      },
+      {
+        "id": "S11",
+        "typ": "Historický přehled projektů",
+        "roky": "2010;2011;2012;2013;2014;2015",
+        "publikovano": "",
+        "datum_udalosti": "2010–2015",
+        "nazev": "Ukončené / realizované služby",
+        "zjisteni": "Sociální integrace na Jesenicku 1. 6. 2011–31. 5. 2015: příjemce město Jeseník, SRSS administrace. Další zakázky komunitního plánování pro Olomoucký kraj.",
+        "vyuziti": "Historické zkušenosti; přesné rozlišení rolí.",
+        "zdroj_url": "https://srssjesenik.cz/projekty/ukoncene-realizovane-sluzby/",
+        "citacni_reference": "turn571034search1",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Plánované hodiny ani rozpočty víceletých zakázek nevydávat za skutečné roční výkony SRSS."
+      },
+      {
+        "id": "S12",
+        "typ": "Odborná stránka",
+        "roky": "2017",
+        "publikovano": "",
+        "datum_udalosti": "2017 (ceník)",
+        "nazev": "Metodická a supervizní podpora KPSS/SPRSS",
+        "zjisteni": "Nabídka podpory obcím a krajům, supervizí a vzdělávání; odkaz na ceník metodické podpory 2017. Služby pod SRSS podle textu od 2008.",
+        "vyuziti": "Popis odborného zaměření, dobový ceník.",
+        "zdroj_url": "https://srssjesenik.cz/dokumenty-ke-stazeni/komunitni-planovani/",
+        "citacni_reference": "turn404579search4",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Zmínka o odborné praxi od 2006 neznamená vznik společnosti v roce 2006."
+      },
+      {
+        "id": "S13",
+        "typ": "Archivní stránka",
+        "roky": "2013;2014;2015",
+        "publikovano": "",
+        "datum_udalosti": "datum původního dopisu neověřeno",
+        "nazev": "Archiv – Kojetín a krajské plánování",
+        "zjisteni": "Poděkování od Jany Nakládalové z MěÚ Kojetín; text o krajské zakázce CZ.1.04/3.1.00/05.00061.",
+        "vyuziti": "Spolupráce a reference; nejprve určit datum listin.",
+        "zdroj_url": "https://srssjesenik.cz/archiv/",
+        "citacni_reference": "turn404579search5",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Údaj 8. 2. 2015 v okolí záznamu nedokazuje datum sepsání dopisu. Nezaměňovat různé projekty."
+      },
+      {
+        "id": "S14",
+        "typ": "Rozcestník dokumentů",
+        "roky": "2009;2010;2011;2012;2013;2014;2015",
+        "publikovano": "",
+        "datum_udalosti": "2009–2015 (roky zpráv)",
+        "nazev": "Výroční zprávy – archiv 2009 až 2015",
+        "zjisteni": "V dohledaném seznamu je sedm výročních zpráv 2009–2015.",
+        "vyuziti": "Historie, původní terminologie, případné dobové snímky.",
+        "zdroj_url": "https://srssjesenik.cz/o-spolecnosti/vyrocni-zprava/",
+        "citacni_reference": "turn237663search1",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Přílohy nebyly staženy; existence dalších ročníků mimo tento seznam není vyloučena."
+      },
+      {
+        "id": "S15",
+        "typ": "Profil služeb",
+        "roky": "Průřezové",
+        "publikovano": "",
+        "datum_udalosti": "bez datace",
+        "nazev": "Oblasti podpory",
+        "zjisteni": "Výčet zahrnuje plánování služeb, dluhové poradenství, projektovou práci a evaluace včetně softwarové podpory evidence unikátních osob.",
+        "vyuziti": "Poslání a odborné kompetence.",
+        "zdroj_url": "https://srssjesenik.cz/oblasti-podpory/",
+        "citacni_reference": "turn634963search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Úvod uvádí tři oblasti, seznam má čtyři. Cizorodé reklamní výrazy vyřadit. Nedokládá konkrétní činnost za každý rok."
+      },
+      {
+        "id": "S16",
+        "typ": "Identifikační stránka",
+        "roky": "Průřezové",
+        "publikovano": "",
+        "datum_udalosti": "aktualizace uvedeny do 2014",
+        "nazev": "Kontakty a identifikace SRSS",
+        "zjisteni": "IČO 27847977; Na Stráni 297/22, Jeseník-Bukovice. Zápis 21. 6. 2008, Krajský soud v Ostravě, O 1009; datová schránka bkyt4gn.",
+        "vyuziti": "Kontrola identity a oddělení sídla od provozoven.",
+        "zdroj_url": "https://srssjesenik.cz/kontakty/",
+        "citacni_reference": "turn404579search3",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Stránka nenahrazuje historický rejstříkový výpis a doložení orgánů za každý rok."
+      },
+      {
+        "id": "S17",
+        "typ": "Kontaktní podstránka",
+        "roky": "Průřezové",
+        "publikovano": "",
+        "datum_udalosti": "bez datace",
+        "nazev": "Zaměstnanci a dobrovolníci",
+        "zjisteni": "Dohledaný výstup neobsahuje úplný personální seznam; zobrazuje kontaktní údaje správce a grafické ikony.",
+        "vyuziti": "Pouze doplňková kontrola; nikoli personální statistika.",
+        "zdroj_url": "https://srssjesenik.cz/kontakty/zamestnanci/",
+        "citacni_reference": "turn856665search3",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Ikony e-mailu a telefonu nejsou fotografie pracovníků. Jména ve funkcích neaplikovat zpětně."
+      },
+      {
+        "id": "S18",
+        "typ": "Projektový rozcestník",
+        "roky": "2016;2017;2018;2019;2020;2021;2022",
+        "publikovano": "",
+        "datum_udalosti": "bez datace",
+        "nazev": "Projekty v realizaci – historický rozcestník",
+        "zjisteni": "Odkazy na JPD I a II a plánování na Prostějovsku, Litovelsku a Mohelnicku.",
+        "vyuziti": "Cesta k podstránkám a dalším přílohám.",
+        "zdroj_url": "https://srssjesenik.cz/projekty/projekty-v-realizaci/",
+        "citacni_reference": "turn805881search1",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Název rubriky není důkaz, že uvedené projekty stále běží."
+      },
+      {
+        "id": "S19",
+        "typ": "Projektový rozcestník",
+        "roky": "Průřezové",
+        "publikovano": "",
+        "datum_udalosti": "bez datace",
+        "nazev": "Projekty",
+        "zjisteni": "Základní rozcestník projektů, odkaz na JPD II.",
+        "vyuziti": "Doplňkový vstup pro úplné procházení webu.",
+        "zdroj_url": "https://srssjesenik.cz/projekty/",
+        "citacni_reference": "turn689352search3",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Tentýž projekt z rozcestníku a článku nepočítat dvakrát jako samostatnou aktivitu."
+      },
+      {
+        "id": "S20",
+        "typ": "Archiv autora",
+        "roky": "2014–2025",
+        "publikovano": "",
+        "datum_udalosti": "různá data",
+        "nazev": "Archiv autora reditel",
+        "zjisteni": "Chronologický vstup k příspěvkům.",
+        "vyuziti": "Dohledat jednotlivé trvalé odkazy a starší stránkování.",
+        "zdroj_url": "https://srssjesenik.cz/author/admin/",
+        "citacni_reference": "turn703160search7",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Kopie článku v archivu není další unikátní článek."
+      },
+      {
+        "id": "S21",
+        "typ": "Archiv formátu",
+        "roky": "2014",
+        "publikovano": "",
+        "datum_udalosti": "2014",
+        "nazev": "Galerie – archiv formátu příspěvků",
+        "zjisteni": "Dohledaný výstup obsahuje příspěvky, ne ověřený kompletní fotoarchiv.",
+        "vyuziti": "Další vstup pro kontrolu skutečných obrázků.",
+        "zdroj_url": "https://srssjesenik.cz/type/gallery/",
+        "citacni_reference": "turn856665search5",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Nesmí být označen za získanou galerii fotografií."
+      },
+      {
+        "id": "S22",
+        "typ": "Článek",
+        "roky": "2015",
+        "publikovano": "2015-12-29",
+        "datum_udalosti": "2015-12-29",
+        "nazev": "PF 2016",
+        "zjisteni": "Přání do dalšího roku zveřejněné na konci 2015.",
+        "vyuziti": "Doplňkový komunikační materiál.",
+        "zdroj_url": "https://srssjesenik.cz/pf-2016/",
+        "citacni_reference": "turn442888search1",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Název PF 2016 neznamená publikování v roce 2016."
+      },
+      {
+        "id": "S23",
+        "typ": "Článek",
+        "roky": "2021",
+        "publikovano": "2021-01-14",
+        "datum_udalosti": "2021-01-14",
+        "nazev": "Nový rok 2021",
+        "zjisteni": "Přání spolupracujícím organizacím.",
+        "vyuziti": "Komunikační archiv, nikoli významný projektový výsledek.",
+        "zdroj_url": "https://srssjesenik.cz/novy-rok-2021/",
+        "citacni_reference": "turn404579search0",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": ""
+      },
+      {
+        "id": "S24",
+        "typ": "Článek / mediální odkaz",
+        "roky": "2014",
+        "publikovano": "2014-07-07",
+        "datum_udalosti": "",
+        "nazev": "Řadu obyvatel Jesenicka drtí dluhy",
+        "zjisteni": "Krátký úvod k tématu zájmu o bezplatné poradenství.",
+        "vyuziti": "Doklad starší komunikace dluhové problematiky.",
+        "zdroj_url": "https://srssjesenik.cz/radu-obyvatel-jesenicka-drti-dluhy/",
+        "citacni_reference": "turn404579search1",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Dohledán jen krátký úvod; původní úplný článek, autor a případné fotografie neověřeny."
+      },
+      {
+        "id": "S25",
+        "typ": "Příspěvek v indexu",
+        "roky": "2016",
+        "publikovano": "2016-10-19",
+        "datum_udalosti": "",
+        "nazev": "Výzva 063",
+        "zjisteni": "Plánování na obcích.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Informační činnost; oznámení není přidělená dotace. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S26",
+        "typ": "Příspěvek v indexu",
+        "roky": "2016",
+        "publikovano": "2016-10-19",
+        "datum_udalosti": "",
+        "nazev": "Dotazník MMR",
+        "zjisteni": "Mapování nepokrytých potřeb.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Převzatá výzva, ne vlastní výzkum SRSS. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S27",
+        "typ": "Příspěvek v indexu",
+        "roky": "2016",
+        "publikovano": "2016-10-25",
+        "datum_udalosti": "",
+        "nazev": "Výzva 064",
+        "zjisteni": "Sociální začleňování.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Oznámení neprokazuje účast SRSS v projektech výzvy. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S28",
+        "typ": "Příspěvek v indexu",
+        "roky": "2017",
+        "publikovano": "2017-08-12",
+        "datum_udalosti": "2017-09",
+        "nazev": "Plánovací projekty",
+        "zjisteni": "Prostějov, Litovel, Mohelnice, Konice.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Zahájení odlišit od dokončených výstupů. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S29",
+        "typ": "Příspěvek v indexu",
+        "roky": "2017",
+        "publikovano": "2017-11-22",
+        "datum_udalosti": "",
+        "nazev": "Osoblažsko – plánování",
+        "zjisteni": "Osoblažský Cech; město Osoblaha.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Nezaměnit za poradenské partnerství od 2021. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S30",
+        "typ": "Příspěvek v indexu",
+        "roky": "2017",
+        "publikovano": "2017-12-27",
+        "datum_udalosti": "2017-12-15",
+        "nazev": "Workshop Prostějov",
+        "zjisteni": "Národní dům; odkaz na reportáž.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Dobový materiál pro 2017; nepoužívat jako dokumentaci 2016. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S31",
+        "typ": "Příspěvek v indexu",
+        "roky": "2017;2018",
+        "publikovano": "2017-12-27",
+        "datum_udalosti": "2018-01-01",
+        "nazev": "Stěhování poradny",
+        "zjisteni": "Palackého 1341/2, ALKRON.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Oznámení patří do 2017; skutečná změna do 2018. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S32",
+        "typ": "Příspěvek v indexu",
+        "roky": "2018",
+        "publikovano": "2018-04-10",
+        "datum_udalosti": "",
+        "nazev": "Postup GDPR",
+        "zjisteni": "Metodická informace MPSV.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Nejde o projektový výstup SRSS. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S33",
+        "typ": "Příspěvek v indexu",
+        "roky": "2018",
+        "publikovano": "2018-09-24",
+        "datum_udalosti": "2018-08-02",
+        "nazev": "Akreditace oddlužení",
+        "zjisteni": "Ministerstvo spravedlnosti; AO-042-2018.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Nevydávat za oprávnění existující v roce 2016. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S34",
+        "typ": "Příspěvek v indexu",
+        "roky": "2021",
+        "publikovano": "2021-01-14",
+        "datum_udalosti": "2021-01-01",
+        "nazev": "Nové partnerství",
+        "zjisteni": "Osoblažský cech.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Detaily ověřeny také na S10. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S35",
+        "typ": "Příspěvek v indexu",
+        "roky": "2021",
+        "publikovano": "2021-12-21",
+        "datum_udalosti": "",
+        "nazev": "PF 2022",
+        "zjisteni": "Ilustrační zimní strom.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Datum publikace není datum pořízení fotografie. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S36",
+        "typ": "Příspěvek v indexu",
+        "roky": "2015",
+        "publikovano": "2015-01-29",
+        "datum_udalosti": "",
+        "nazev": "Strategické dokumenty",
+        "zjisteni": "Meziobecní spolupráce.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Propojování dokumentů není jejich výhradní autorství. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S37",
+        "typ": "Příspěvek v indexu",
+        "roky": "2015",
+        "publikovano": "2015-02-01",
+        "datum_udalosti": "",
+        "nazev": "Kurz dluhového poradenství",
+        "zjisteni": "Akreditované vzdělávání.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Pozvánka není doklad počtu absolventů. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S38",
+        "typ": "Příspěvek v indexu",
+        "roky": "2015",
+        "publikovano": "2015-03-02",
+        "datum_udalosti": "plán 2015-03-19",
+        "nazev": "Závěrečný workshop",
+        "zjisteni": "Sociální integrace.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Uveden plán akce, nikoli zpráva o uskutečnění. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S39",
+        "typ": "Příspěvek v indexu",
+        "roky": "2015",
+        "publikovano": "2015-04-02",
+        "datum_udalosti": "2015-04-01",
+        "nazev": "KRKOS",
+        "zjisteni": "Skupinová fotografie.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Téma plánu 2016 neposouvá fotografii do 2016. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S40",
+        "typ": "Příspěvek v indexu",
+        "roky": "2015",
+        "publikovano": "2015-04-03",
+        "datum_udalosti": "",
+        "nazev": "Konicko – setkání",
+        "zjisteni": "Příloha zpravodaje.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Fotografie v příloze dosud nepotvrzeny. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S41",
+        "typ": "Příspěvek v indexu",
+        "roky": "2015",
+        "publikovano": "2015-05-27",
+        "datum_udalosti": "plán 2015-06-24–25",
+        "nazev": "Vzdělávací soustředění",
+        "zjisteni": "Lipová-lázně.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Nabídka není potvrzené uskutečnění. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S42",
+        "typ": "Příspěvek v indexu",
+        "roky": "2015",
+        "publikovano": "2015-10-02",
+        "datum_udalosti": "",
+        "nazev": "Kobylá nad Vidnavkou",
+        "zjisteni": "Šest vstupních bytů.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Role SRSS a dokončení vyžadují přílohu; nepřipsat SRSS výstavbu. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S43",
+        "typ": "Příspěvek v indexu",
+        "roky": "2014",
+        "publikovano": "2014-06-10",
+        "datum_udalosti": "",
+        "nazev": "Metodická podpora",
+        "zjisteni": "Olomoucký kraj.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Smluvní nabídka sama nevykazuje dosažené počty. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S44",
+        "typ": "Příspěvek v indexu",
+        "roky": "2014",
+        "publikovano": "2014-06-11",
+        "datum_udalosti": "plán 2014-06-30",
+        "nazev": "Komunikační dovednosti",
+        "zjisteni": "Pozvánka a přihláška.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Kapacita kurzu není počet účastníků. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      },
+      {
+        "id": "S45",
+        "typ": "Příspěvek v indexu",
+        "roky": "2014",
+        "publikovano": "2014-05-31",
+        "datum_udalosti": "",
+        "nazev": "Povodňová pomoc",
+        "zjisteni": "Převzatá informace ÚP.",
+        "vyuziti": "Dohledat trvalý odkaz a původní podklad před podrobným doplněním.",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "citacni_reference": "turn689352search2",
+        "stav": "Text dohledán ve vyhledávacím indexu; originál v tomto sběru nearchivován",
+        "poznamka": "Výslovně NEPOUŽÍT jako zprávu o povodních 2024. Samostatná URL příspěvku nezískána; dohledaný zdroj je titulní stránka."
+      }
+    ],
+    "dokumenty": [
+      {
+        "id": "D01",
+        "roky": "2009",
+        "nazev": "Výroční zpráva SRSS 2009",
+        "rodic_id": "S14",
+        "rodic_url": "https://srssjesenik.cz/o-spolecnosti/vyrocni-zprava/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Činnost, dobové názvy a případné obrázky. Číst jen relevantní ročník; účetní soupisky do hlavní zprávy nepřenášet.",
+        "citacni_reference": "turn237663search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D02",
+        "roky": "2010",
+        "nazev": "Výroční zpráva SRSS 2010",
+        "rodic_id": "S14",
+        "rodic_url": "https://srssjesenik.cz/o-spolecnosti/vyrocni-zprava/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Činnost, dobové názvy a případné obrázky. Číst jen relevantní ročník; účetní soupisky do hlavní zprávy nepřenášet.",
+        "citacni_reference": "turn237663search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D03",
+        "roky": "2011",
+        "nazev": "Výroční zpráva SRSS 2011",
+        "rodic_id": "S14",
+        "rodic_url": "https://srssjesenik.cz/o-spolecnosti/vyrocni-zprava/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Činnost, dobové názvy a případné obrázky. Číst jen relevantní ročník; účetní soupisky do hlavní zprávy nepřenášet.",
+        "citacni_reference": "turn237663search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D04",
+        "roky": "2012",
+        "nazev": "Výroční zpráva SRSS 2012",
+        "rodic_id": "S14",
+        "rodic_url": "https://srssjesenik.cz/o-spolecnosti/vyrocni-zprava/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Činnost, dobové názvy a případné obrázky. Číst jen relevantní ročník; účetní soupisky do hlavní zprávy nepřenášet.",
+        "citacni_reference": "turn237663search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D05",
+        "roky": "2013",
+        "nazev": "Výroční zpráva SRSS 2013",
+        "rodic_id": "S14",
+        "rodic_url": "https://srssjesenik.cz/o-spolecnosti/vyrocni-zprava/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Činnost, dobové názvy a případné obrázky. Číst jen relevantní ročník; účetní soupisky do hlavní zprávy nepřenášet.",
+        "citacni_reference": "turn237663search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D06",
+        "roky": "2014",
+        "nazev": "Výroční zpráva SRSS 2014",
+        "rodic_id": "S14",
+        "rodic_url": "https://srssjesenik.cz/o-spolecnosti/vyrocni-zprava/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Činnost, dobové názvy a případné obrázky. Číst jen relevantní ročník; účetní soupisky do hlavní zprávy nepřenášet.",
+        "citacni_reference": "turn237663search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D07",
+        "roky": "2015",
+        "nazev": "Výroční zpráva SRSS 2015",
+        "rodic_id": "S14",
+        "rodic_url": "https://srssjesenik.cz/o-spolecnosti/vyrocni-zprava/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Činnost, dobové názvy a případné obrázky. Číst jen relevantní ročník; účetní soupisky do hlavní zprávy nepřenášet.",
+        "citacni_reference": "turn237663search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D08",
+        "roky": "2017",
+        "nazev": "Ceník metodické podpory 2017",
+        "rodic_id": "S12",
+        "rodic_url": "https://srssjesenik.cz/dokumenty-ke-stazeni/komunitni-planovani/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Rozsah nabízených služeb. Ceník není evidence fakticky poskytnutých plnění.",
+        "citacni_reference": "turn404579search4",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D09",
+        "roky": "2017",
+        "nazev": "Projektový list Litovel",
+        "rodic_id": "S09",
+        "rodic_url": "https://srssjesenik.cz/sprss-so-orp-litovel/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Registrační číslo, role, cíle a harmonogram.",
+        "citacni_reference": "turn484726search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D10",
+        "roky": "2017",
+        "nazev": "Dopis starostům SO ORP Litovel",
+        "rodic_id": "S09",
+        "rodic_url": "https://srssjesenik.cz/sprss-so-orp-litovel/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Komunikace s obcemi a zapojení území; ověřit datum dopisu.",
+        "citacni_reference": "turn484726search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D11",
+        "roky": "2017",
+        "nazev": "Tisková zpráva – zahájení Litovel, září 2017",
+        "rodic_id": "S09",
+        "rodic_url": "https://srssjesenik.cz/sprss-so-orp-litovel/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Dobové zahájení; porovnat se skutečným datem projektu.",
+        "citacni_reference": "turn484726search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D12",
+        "roky": "2018",
+        "nazev": "Sociodemografická analýza Litovelska 2018",
+        "rodic_id": "S09",
+        "rodic_url": "https://srssjesenik.cz/sprss-so-orp-litovel/",
+        "soubor_url": "https://srssjesenik.cz/wp-content/uploads/2019/04/SDGA-ORP-Litovel-2018-FIN.pdf",
+        "stav": "Název odkazu potvrzen; přímá URL z předchozí rešerše, nyní nenačtena",
+        "co_ziskat": "Datování, autoři, analytické výstupy. Rok zkoumaných dat neztotožnit s rokem publikování.",
+        "citacni_reference": "turn484726search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D13",
+        "roky": "2019",
+        "nazev": "Výzkum potřebnosti sociálních služeb Litovelsko 2019",
+        "rodic_id": "S09",
+        "rodic_url": "https://srssjesenik.cz/sprss-so-orp-litovel/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Zjištění a doporučení, skutečné datum výstupu.",
+        "citacni_reference": "turn484726search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D14",
+        "roky": "2019;2020;2021;2022",
+        "nazev": "Střednědobý plán Litovel 2020–2022",
+        "rodic_id": "S09",
+        "rodic_url": "https://srssjesenik.cz/sprss-so-orp-litovel/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Schválení, autoři, cíle a návaznost; neplést platnost plánu s jeho tvorbou.",
+        "citacni_reference": "turn484726search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D15",
+        "roky": "2018;2019",
+        "nazev": "Výzva k podání nabídek 2018-03-02",
+        "rodic_id": "S08",
+        "rodic_url": "https://srssjesenik.cz/srss-o-p-s-zverejnuje-vyzvu-k-podani-nabidek/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Zadávací dokument; není důkaz uzavření smlouvy, zaplacení nebo převzetí výstupu.",
+        "citacni_reference": "turn226764search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D16",
+        "roky": "2018;2019",
+        "nazev": "Příloha 1 – krycí list nabídky",
+        "rodic_id": "S08",
+        "rodic_url": "https://srssjesenik.cz/srss-o-p-s-zverejnuje-vyzvu-k-podani-nabidek/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Zadávací dokument; není důkaz uzavření smlouvy, zaplacení nebo převzetí výstupu.",
+        "citacni_reference": "turn226764search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D17",
+        "roky": "2018;2019",
+        "nazev": "Příloha 3 – návrh smlouvy",
+        "rodic_id": "S08",
+        "rodic_url": "https://srssjesenik.cz/srss-o-p-s-zverejnuje-vyzvu-k-podani-nabidek/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Zadávací dokument; není důkaz uzavření smlouvy, zaplacení nebo převzetí výstupu.",
+        "citacni_reference": "turn226764search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D18",
+        "roky": "2018;2019",
+        "nazev": "Příloha 4 – čestné prohlášení",
+        "rodic_id": "S08",
+        "rodic_url": "https://srssjesenik.cz/srss-o-p-s-zverejnuje-vyzvu-k-podani-nabidek/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Zadávací dokument; není důkaz uzavření smlouvy, zaplacení nebo převzetí výstupu.",
+        "citacni_reference": "turn226764search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D19",
+        "roky": "2018;2019",
+        "nazev": "Příloha 5 – harmonogram plnění",
+        "rodic_id": "S08",
+        "rodic_url": "https://srssjesenik.cz/srss-o-p-s-zverejnuje-vyzvu-k-podani-nabidek/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Zadávací dokument; není důkaz uzavření smlouvy, zaplacení nebo převzetí výstupu.",
+        "citacni_reference": "turn226764search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D20",
+        "roky": "2020;2021;2022",
+        "nazev": "Vstupní evaluační zpráva JPD II",
+        "rodic_id": "S04",
+        "rodic_url": "https://srssjesenik.cz/dluhova-poradna/",
+        "soubor_url": "https://srssjesenik.cz/wp-content/uploads/2022/11/I-EVALUA%C4%8CN%C3%8D-ZPR%C3%81VA-JPD-II.pdf",
+        "stav": "Název odkazu potvrzen; přímá URL z předchozí rešerše, nyní nenačtena",
+        "co_ziskat": "Číst celý dokument; získat skutečné datum, sledované období a výsledky. Oddělit plánované a dosažené ukazatele.",
+        "citacni_reference": "turn644758search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D21",
+        "roky": "2020;2021;2022",
+        "nazev": "Průběžná evaluační zpráva JPD II",
+        "rodic_id": "S04",
+        "rodic_url": "https://srssjesenik.cz/dluhova-poradna/",
+        "soubor_url": "https://srssjesenik.cz/wp-content/uploads/2022/11/II-EVALUA%C4%8CN%C3%8D-ZPR%C3%81VA-JPD-II.pdf",
+        "stav": "Název odkazu potvrzen; přímá URL z předchozí rešerše, nyní nenačtena",
+        "co_ziskat": "Číst celý dokument; získat skutečné datum, sledované období a výsledky. Oddělit plánované a dosažené ukazatele.",
+        "citacni_reference": "turn644758search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D22",
+        "roky": "2020;2021;2022",
+        "nazev": "Závěrečná evaluační zpráva JPD II",
+        "rodic_id": "S04",
+        "rodic_url": "https://srssjesenik.cz/dluhova-poradna/",
+        "soubor_url": "https://srssjesenik.cz/wp-content/uploads/2022/11/III-EVALUA%C4%8CN%C3%8D-ZPR%C3%81VA-JPD-II.pdf",
+        "stav": "Název odkazu potvrzen; přímá URL z předchozí rešerše, nyní nenačtena",
+        "co_ziskat": "Číst celý dokument; získat skutečné datum, sledované období a výsledky. Oddělit plánované a dosažené ukazatele.",
+        "citacni_reference": "turn644758search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D23",
+        "roky": "2020",
+        "nazev": "Leták JPD II – 2020",
+        "rodic_id": "S02",
+        "rodic_url": "https://srssjesenik.cz/jesenicko-proti-dluhum-ii/",
+        "soubor_url": "https://srssjesenik.cz/wp-content/uploads/2020/07/LET%C3%81K-2020-JPD-II.pdf",
+        "stav": "Název odkazu potvrzen; přímá URL z předchozí rešerše, nyní nenačtena",
+        "co_ziskat": "Dobový popis služby a pracoviště; obrazový podklad, nikoli fotografie.",
+        "citacni_reference": "turn689352search0",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D24",
+        "roky": "2021",
+        "nazev": "Leták JPD II – změna 1. 1. 2021",
+        "rodic_id": "S04",
+        "rodic_url": "https://srssjesenik.cz/dluhova-poradna/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Aktualizovaná provozovna; nesloučit s verzí 2020 před porovnáním obsahu.",
+        "citacni_reference": "turn644758search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D25",
+        "roky": "2025",
+        "nazev": "Leták JPD III – verze 09/2025",
+        "rodic_id": "S06",
+        "rodic_url": "https://srssjesenik.cz/jesenicko-proti-dluhum-iii/",
+        "soubor_url": "https://srssjesenik.cz/wp-content/uploads/2025/02/LET%C3%81K-2025-JPD-III-09_2025.pdf",
+        "stav": "Název odkazu potvrzen; přímá URL z předchozí rešerše, nyní nenačtena",
+        "co_ziskat": "Kontakty, nabídka pomoci, vizuální komunikace. Jméno souboru není spolehlivým dokladem dne publikace.",
+        "citacni_reference": "turn571034search0",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D26",
+        "roky": "2016;2017;2018;2019",
+        "nazev": "Leták dluhové poradny – JPD I",
+        "rodic_id": "S18",
+        "rodic_url": "https://srssjesenik.cz/projekty/projekty-v-realizaci/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Původní vzhled a informace; konkrétní verzi nejprve datovat.",
+        "citacni_reference": "turn805881search1",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D27",
+        "roky": "2017",
+        "nazev": "I. Workshop na Prostějovsku",
+        "rodic_id": "S30",
+        "rodic_url": "https://srssjesenik.cz/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Reportáž, případné originály fotografií a datace akce.",
+        "citacni_reference": "turn689352search2",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D28",
+        "roky": "2017",
+        "nazev": "Plánování sociálních služeb na Osoblažsku",
+        "rodic_id": "S29",
+        "rodic_url": "https://srssjesenik.cz/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Úplné znění reportáže; role SRSS a případné fotografie.",
+        "citacni_reference": "turn689352search2",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D29",
+        "roky": "2015",
+        "nazev": "TISK ZPRAVODAJ KONICE",
+        "rodic_id": "S40",
+        "rodic_url": "https://srssjesenik.cz/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Úplný článek a případné dobové snímky, autor a číslo zpravodaje.",
+        "citacni_reference": "turn689352search2",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D30",
+        "roky": "2015",
+        "nazev": "01_WWW_PB – vstupní byty v Kobylé",
+        "rodic_id": "S42",
+        "rodic_url": "https://srssjesenik.cz/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Charakter spolupráce, harmonogram a případné fotografie stavby.",
+        "citacni_reference": "turn689352search2",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D31",
+        "roky": "2015",
+        "nazev": "MěÚ Kojetín – poděkování",
+        "rodic_id": "S13",
+        "rodic_url": "https://srssjesenik.cz/archiv/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Originál dopisu, datum a předmět poděkování; nesuplovat dataci odhadem.",
+        "citacni_reference": "turn404579search5",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D32",
+        "roky": "2015",
+        "nazev": "Pozvánka k Úvodu do dluhového poradenství",
+        "rodic_id": "S37",
+        "rodic_url": "https://srssjesenik.cz/",
+        "soubor_url": "http://srssjesenik.cz/?p=1241",
+        "stav": "Adresa pozvánky uvedena v indexu; cílový obsah neprohlédnut",
+        "co_ziskat": "Místo, termín, program; doklad nabídky, nikoli skutečné účasti.",
+        "citacni_reference": "turn689352search2",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D33",
+        "roky": "2014",
+        "nazev": "Dopis kraje k zahájení metodické podpory",
+        "rodic_id": "S43",
+        "rodic_url": "https://srssjesenik.cz/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Dobová objednávka / informování obcí; štítek odkazu obsahuje 5. 6. 2014.",
+        "citacni_reference": "turn689352search2",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D34",
+        "roky": "2014",
+        "nazev": "Pozvánka na komunikační vzdělávání",
+        "rodic_id": "S44",
+        "rodic_url": "https://srssjesenik.cz/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Program a lektorské zajištění; datum skutečného konání ověřit.",
+        "citacni_reference": "turn689352search2",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D35",
+        "roky": "2014",
+        "nazev": "Závazná přihláška účastníka",
+        "rodic_id": "S44",
+        "rodic_url": "https://srssjesenik.cz/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Pouze doklad organizace vzdělávání, ne vyplněná evidence účastníků.",
+        "citacni_reference": "turn689352search2",
+        "stazeno": "NE"
+      },
+      {
+        "id": "D36",
+        "roky": "2018",
+        "nazev": "Doporučený postup 02/2018 GDPR",
+        "rodic_id": "S32",
+        "rodic_url": "https://srssjesenik.cz/",
+        "soubor_url": "",
+        "stav": "Odkaz nebo název přílohy dohledán; soubor neprohlédnut",
+        "co_ziskat": "Převzatý metodický dokument MPSV; není vlastním autorským výstupem SRSS.",
+        "citacni_reference": "turn689352search2",
+        "stazeno": "NE"
+      }
+    ],
+    "obrazove_podklady": [
+      {
+        "id": "F01",
+        "roky": "2017",
+        "namet": "Workshop Prostějov, 15. 12. 2017",
+        "zdroj_id": "S30",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "doklad": "Článek a odkaz na reportáž; fotografie se objevila i v dříve dodané zprávě. V tomto sběru nový originál nestažen.",
+        "stav": "Originální obrazový soubor z webu nezískán",
+        "doporucene_pouziti": "Přednostně ročník 2017; získat originál, ne obrázek celé stránky zprávy.",
+        "priorita": "Vysoká",
+        "datum_snimku": "Nutno doložit podle originálu a kontextu",
+        "original_url": "",
+        "sha256": "",
+        "perceptual_hash": "",
+        "duplicity": "Nelze vyhodnotit bez souboru",
+        "prava": "Neověřeno",
+        "citacni_reference": "turn689352search2"
+      },
+      {
+        "id": "F02",
+        "roky": "2015",
+        "namet": "Setkání KRKOS, 1. 4. 2015",
+        "zdroj_id": "S39",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "doklad": "Text výslovně zmiňuje společnou fotografii.",
+        "stav": "Originální obrazový soubor z webu nezískán",
+        "doporucene_pouziti": "Do 2015 nebo řádně datované historie, ne jako akce 2016.",
+        "priorita": "Vysoká",
+        "datum_snimku": "Nutno doložit podle originálu a kontextu",
+        "original_url": "",
+        "sha256": "",
+        "perceptual_hash": "",
+        "duplicity": "Nelze vyhodnotit bez souboru",
+        "prava": "Neověřeno",
+        "citacni_reference": "turn689352search2"
+      },
+      {
+        "id": "F03",
+        "roky": "2021",
+        "namet": "Zimní motiv u PF 2022",
+        "zdroj_id": "S35",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "doklad": "Index obsahuje alternativní text zimního stromu.",
+        "stav": "Originální obrazový soubor z webu nezískán",
+        "doporucene_pouziti": "Pouze ilustrace; bez ověření nepřipisovat autorství, lokalitu ani rok pořízení.",
+        "priorita": "Nízká",
+        "datum_snimku": "Nutno doložit podle originálu a kontextu",
+        "original_url": "",
+        "sha256": "",
+        "perceptual_hash": "",
+        "duplicity": "Nelze vyhodnotit bez souboru",
+        "prava": "Neověřeno",
+        "citacni_reference": "turn689352search2"
+      },
+      {
+        "id": "F04",
+        "roky": "2017;2018",
+        "namet": "Obrazový prvek u oznámení stěhování",
+        "zdroj_id": "S31",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "doklad": "V dříve získaném indexu příspěvku je obrazový prvek; typ ani obsah nepotvrzen.",
+        "stav": "Originální obrazový soubor z webu nezískán",
+        "doporucene_pouziti": "Nejprve rozlišit fotografii, leták a pouhé logo.",
+        "priorita": "Střední",
+        "datum_snimku": "Nutno doložit podle originálu a kontextu",
+        "original_url": "",
+        "sha256": "",
+        "perceptual_hash": "",
+        "duplicity": "Nelze vyhodnotit bez souboru",
+        "prava": "Neověřeno",
+        "citacni_reference": "turn689352search2"
+      },
+      {
+        "id": "F05",
+        "roky": "2015",
+        "namet": "Konicko – obrazové podklady přílohy",
+        "zdroj_id": "S40",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "doklad": "Existuje odkaz na článek ve zpravodaji; přítomnost fotografií neověřena.",
+        "stav": "Originální obrazový soubor z webu nezískán",
+        "doporucene_pouziti": "Kandidát k prohlídce přílohy, nikoli potvrzený snímek.",
+        "priorita": "Střední",
+        "datum_snimku": "Nutno doložit podle originálu a kontextu",
+        "original_url": "",
+        "sha256": "",
+        "perceptual_hash": "",
+        "duplicity": "Nelze vyhodnotit bez souboru",
+        "prava": "Neověřeno",
+        "citacni_reference": "turn689352search2"
+      },
+      {
+        "id": "F06",
+        "roky": "2015",
+        "namet": "Kobylá – obrazové podklady stavby",
+        "zdroj_id": "S42",
+        "zdroj_url": "https://srssjesenik.cz/",
+        "doklad": "Příloha projektu existuje podle indexu; fotografie dosud nepotvrzeny.",
+        "stav": "Originální obrazový soubor z webu nezískán",
+        "doporucene_pouziti": "Kandidát k ověření; nepoužít jinou budovu jako dokumentaci projektu.",
+        "priorita": "Střední",
+        "datum_snimku": "Nutno doložit podle originálu a kontextu",
+        "original_url": "",
+        "sha256": "",
+        "perceptual_hash": "",
+        "duplicity": "Nelze vyhodnotit bez souboru",
+        "prava": "Neověřeno",
+        "citacni_reference": "turn689352search2"
+      },
+      {
+        "id": "F07",
+        "roky": "2009–2015",
+        "namet": "Obrázky ve starších výročních zprávách",
+        "zdroj_id": "S14",
+        "zdroj_url": "https://srssjesenik.cz/o-spolecnosti/vyrocni-zprava/",
+        "doklad": "Dohledány názvy sedmi zpráv; počet a obsah snímků neověřen.",
+        "stav": "Originální obrazový soubor z webu nezískán",
+        "doporucene_pouziti": "Prohlédnout jednotlivé PDF. Každý snímek vést samostatně; celé stránky nejsou originály fotek.",
+        "priorita": "Vysoká",
+        "datum_snimku": "Nutno doložit podle originálu a kontextu",
+        "original_url": "",
+        "sha256": "",
+        "perceptual_hash": "",
+        "duplicity": "Nelze vyhodnotit bez souboru",
+        "prava": "Neověřeno",
+        "citacni_reference": "turn237663search1"
+      },
+      {
+        "id": "F08",
+        "roky": "2020;2021;2025",
+        "namet": "Letáky poradny – různé verze",
+        "zdroj_id": "S02;S04;S06",
+        "zdroj_url": "https://srssjesenik.cz/dluhova-poradna/ ; https://srssjesenik.cz/jesenicko-proti-dluhum-iii/",
+        "doklad": "D23–D25; dokumentové vizuály, nikoli automaticky fotografie.",
+        "stav": "Originální obrazový soubor z webu nezískán",
+        "doporucene_pouziti": "Použít jako ukázku komunikace, odlišit verze a nepočítat jako nové akce.",
+        "priorita": "Vysoká",
+        "datum_snimku": "Nutno doložit podle originálu a kontextu",
+        "original_url": "",
+        "sha256": "",
+        "perceptual_hash": "",
+        "duplicity": "Nelze vyhodnotit bez souboru",
+        "prava": "Neověřeno",
+        "citacni_reference": "turn644758search1"
+      },
+      {
+        "id": "F09",
+        "roky": "Průřezové",
+        "namet": "Ikony, záhlaví, loga a archiv Galerie",
+        "zdroj_id": "S21",
+        "zdroj_url": "https://srssjesenik.cz/type/gallery/",
+        "doklad": "Web má obrazové prvky a archiv formátu; úplná fotogalerie nepotvrzena.",
+        "stav": "Originální obrazový soubor z webu nezískán",
+        "doporucene_pouziti": "Vyřadit dekorativní ikony z evidence dokumentárních fotografií.",
+        "priorita": "Nízká",
+        "datum_snimku": "Nutno doložit podle originálu a kontextu",
+        "original_url": "",
+        "sha256": "",
+        "perceptual_hash": "",
+        "duplicity": "Nelze vyhodnotit bez souboru",
+        "prava": "Neověřeno",
+        "citacni_reference": "turn856665search5"
+      }
+    ],
+    "rocni_pokyny": [
+      {
+        "rok": 2016,
+        "doplnit": "Zahájení poradny, nabídka pomoci a informování o výzvách.",
+        "zdroje": "S01;S25–S27",
+        "obrazky": "Původní leták JPD I po datování; nová fotografie z roku 2016 nepotvrzena.",
+        "nepredjimat": "Akreditaci 2018, fotografii workshopu 2017, pozdější výsledky."
+      },
+      {
+        "rok": 2017,
+        "doplnit": "Zahájení plánovacích projektů, workshop Prostějov, metodická nabídka.",
+        "zdroje": "S09;S12;S28–S31;D08–D11;D27–D28",
+        "obrazky": "F01; další fotografie až po kontrole příloh.",
+        "nepredjimat": "Stěhování na Palackého je oznámeno 2017, účinné 2018."
+      },
+      {
+        "rok": 2018,
+        "doplnit": "Akreditace pro oddlužení, výzkumná zakázka, analýza Litovelska.",
+        "zdroje": "S08;S09;S31–S33;D12;D15–D19",
+        "obrazky": "Vizuály analýzy nebo dobových dokumentů, jasně označené.",
+        "nepredjimat": "Vypsanou zakázku nezaměnit za uskutečněný výzkum či uhrazenou cenu."
+      },
+      {
+        "rok": 2019,
+        "doplnit": "Výzkum a plánovací výstupy Litovelska; komunikace výzvy OPZ 106.",
+        "zdroje": "S07;S09;D13–D14",
+        "obrazky": "Titulní strany výstupů až po prohlídce; nová fotografie nepotvrzena.",
+        "nepredjimat": "Plán 2020–2022 není automaticky činnost realizovaná ve všech letech jeho platnosti."
+      },
+      {
+        "rok": 2020,
+        "doplnit": "JPD II, poradna Palackého a finanční gramotnost.",
+        "zdroje": "S02;D23",
+        "obrazky": "Leták verze 2020 po stažení.",
+        "nepredjimat": "Partnerství SRSS na Osoblažsku začíná až 2021; nevztáhnout jej automaticky na 2020."
+      },
+      {
+        "rok": 2021,
+        "doplnit": "Přesun na Lipovskou, dobová dostupnost služby, partnerství na Osoblažsku.",
+        "zdroje": "S03;S10;S23;S34;D24",
+        "obrazky": "Aktualizovaný leták; PF pouze jako dekorace, ne fotografie činnosti.",
+        "nepredjimat": "Nesměšovat sídlo a pracoviště, PF2022 datovat publikací 2021."
+      },
+      {
+        "rok": 2022,
+        "doplnit": "Odděleně konec poradny 30.6., besedy do 30.9., ukončení projektu 30.9.; dočíst evaluace.",
+        "zdroje": "S04;D20–D22",
+        "obrazky": "Grafy pouze z ověřených výsledků; případné snímky z evaluací nejprve identifikovat.",
+        "nepredjimat": "Netvrdit provoz poradny do září, když zdroj uvádí červen."
+      },
+      {
+        "rok": 2023,
+        "doplnit": "Partnerství Osoblažsko II, vlastní role SRSS v dluhovém poradenství.",
+        "zdroje": "S05;S10",
+        "obrazky": "Nový dobový snímek na webu nepotvrzen.",
+        "nepredjimat": "Neoznačit projekt Osoblažska za JPD III nebo vlastní příjemcovský projekt SRSS."
+      },
+      {
+        "rok": 2024,
+        "doplnit": "Jako rámec použít harmonogram Osoblažska II; konkrétní roční činnost doložit dalším pramenem.",
+        "zdroje": "S05;S10",
+        "obrazky": "Samostatně datovaná fotografie či článek 2024 v této rešerši nenalezen.",
+        "nepredjimat": "Harmonogram nedokládá roční výkon; článek o povodních 2014 nespojovat s 2024."
+      },
+      {
+        "rok": 2025,
+        "doplnit": "Zahájení JPD III a místo poradny; samostatně partnerská činnost na Osoblažsku.",
+        "zdroje": "S05;S06;D25",
+        "obrazky": "Leták JPD III po ověření konkrétní verze; nové dokumentární foto nepotvrzeno.",
+        "nepredjimat": "Start projektu není dosažený roční výsledek; leták není fotografie klientské práce."
+      }
+    ],
+    "kontroly": [
+      {
+        "id": "K01",
+        "priorita": "Vysoká",
+        "tema": "Poradna vs. projekt 2022",
+        "zjisteni": "Poradna 30.6.2022; besedy a projekt 30.9.2022.",
+        "zdroje": "S04",
+        "pokyn": "Oddělit v roční časové ose."
+      },
+      {
+        "id": "K02",
+        "priorita": "Vysoká",
+        "tema": "Pracoviště vs. sídlo",
+        "zjisteni": "Sídlo Na Stráni neztotožnit s postupnými adresami poradny.",
+        "zdroje": "S01;S02;S03;S06;S16",
+        "pokyn": "Vést čtyři adresní záznamy s platností; nezpětně aktualizovat."
+      },
+      {
+        "id": "K03",
+        "priorita": "Vysoká",
+        "tema": "Datace fotografií",
+        "zjisteni": "Rok článku, události, pořízení a složky uploads jsou různé údaje.",
+        "zdroje": "S30;S35;S39",
+        "pokyn": "Datum dokládat kontextem, ne názvem složky."
+      },
+      {
+        "id": "K04",
+        "priorita": "Vysoká",
+        "tema": "Formální partnerství",
+        "zjisteni": "SRSS v projektu Osoblažska od 1.1.2021; příjemcem je jiný subjekt.",
+        "zdroje": "S10",
+        "pokyn": "Nepsat partnerství SRSS od2020 bez jiného dokladu."
+      },
+      {
+        "id": "K05",
+        "priorita": "Vysoká",
+        "tema": "Budoucí datum vydání",
+        "zjisteni": "Požadavek X+1 není důkaz historického vytvoření.",
+        "zdroje": "Požadavek zadavatele",
+        "pokyn": "Ověřený původní rok uvést; rekonstrukci v2026 nezpětně datovat."
+      },
+      {
+        "id": "K06",
+        "priorita": "Vysoká",
+        "tema": "Výsledky a plány",
+        "zjisteni": "Výzva, harmonogram, ceník a pozvánka nejsou dosažené výkony.",
+        "zdroje": "S07;S08;S12;S37;S41;S44",
+        "pokyn": "U každé metriky druh, období a skutečný zdroj."
+      },
+      {
+        "id": "K07",
+        "priorita": "Střední",
+        "tema": "Stará navigace",
+        "zjisteni": "Projekty v realizaci obsahují historické položky.",
+        "zdroje": "S18",
+        "pokyn": "Názvy rubrik nepoužívat k určení aktuálního stavu."
+      },
+      {
+        "id": "K08",
+        "priorita": "Střední",
+        "tema": "Cizorodý obsah",
+        "zjisteni": "V indexu některých textů jsou nesouvisející reklamní slova.",
+        "zdroje": "S15;S16",
+        "pokyn": "Vyřadit, neklikat a nepřepisovat do výročních zpráv; příčinu nelze doložit."
+      },
+      {
+        "id": "K09",
+        "priorita": "Střední",
+        "tema": "Čtyři oblasti",
+        "zjisteni": "Úvod mluví o třech oblastech, číslování obsahuje čtyři.",
+        "zdroje": "S15",
+        "pokyn": "Popsat konkrétní činnosti bez přebírání vnitřního rozporu."
+      },
+      {
+        "id": "K10",
+        "priorita": "Vysoká",
+        "tema": "Účetní přílohy",
+        "zjisteni": "Finální účetní soupisky mají být doplněny samostatnou přílohou později.",
+        "zdroje": "Požadavek zadavatele",
+        "pokyn": "Zde zprávy neupraveny; Codex má odstranit detailní závěrečné sestavy, zachovat původní soubory."
+      },
+      {
+        "id": "K11",
+        "priorita": "Vysoká",
+        "tema": "Neduplicita obrázků",
+        "zjisteni": "Binární ani vizuální porovnání nových fotek nebylo možné bez souborů.",
+        "zdroje": "Metodika sběru",
+        "pokyn": "SHA256, normalizované pixely, pHash a ruční posouzení; nedestruktivní skupiny."
+      },
+      {
+        "id": "K12",
+        "priorita": "Vysoká",
+        "tema": "Mezera2024",
+        "zjisteni": "Existuje víceletý rámec, nikoli samostatně doložený roční souhrn.",
+        "zdroje": "S05",
+        "pokyn": "Žádné vymyšlené roční počty ani povodňové zásahy."
+      }
+    ]
+  }
+}
