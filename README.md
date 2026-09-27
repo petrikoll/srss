@@ -4,12 +4,10 @@ Samostatný export prezentačního webu Střediska rozvoje sociálních služeb,
 
 ## Co balíček obsahuje
 
-- Celý prezentační web: úvod, informace o organizaci, služby, poradna, projekty, dokumenty, kontakty a produktové stránky digitálních nástrojů.
-- Texty, logo, fotografie, ilustrace, čtyři ukázky rozhraní a responzivní styly.
+- Celý prezentační web: úvod, informace o organizaci, služby, poradna, projekty, dokumenty a kontakty.
+- Texty, logo, fotografie, ilustrace a responzivní styly.
 - Upravitelný zdroj stránek v Pythonu a hotové HTML ve složce `dist`.
 - `render.yaml` pro nasazení na Render.
-
-**Samotné nabízené aplikace nejsou součástí balíčku.** Generátor IS ESF, ISIR, Sledovač OPZ+, E.L.A.I. a ostatní nástroje mají na webu prezentační obsah. Funkční generátor ani zdrojové kódy těchto aplikací se neexportují. Jeho původní spouštěcí tlačítka jsou v tomto exportu nahrazena tlačítkem „Domluvit ukázku“, které otevře e-mail na `srssjesenik@gmail.com`.
 
 Web nepotřebuje databázi, přihlášení návštěvníka ani vlastní aplikační server. Kontaktní tlačítka používají telefonní a e-mailové odkazy. Ke správě webu slouží soubory v GitHubu; administrace/CMS není součástí.
 
@@ -49,9 +47,6 @@ Po dokončení nasazení dostanete adresu na `onrender.com`. Návštěvníci se 
 | Co upravujete | Soubor nebo složka |
 | --- | --- |
 | Hlavní stránky, společná hlavička a patička, kontakty | `src/build.py` |
-| Přehled digitálních nástrojů a projektová evidence | `src/digital_tools.py` |
-| Firemní systém, týmový portál a E.L.A.I. | `src/system_pages.py` |
-| Prezentační stránky IS ESF, nástrojů OPZ+ a BIO Registry | `src/portfolio_extensions.py` |
 | Archivní podklady | `src/catalog.json` |
 | Vzhled | `dist/assets/site.css` |
 | Obrázky a ukázky | `dist/assets/` |
@@ -75,10 +70,9 @@ Na Linuxu/macOS použijte stejné příkazy s `python3` místo `py -3`.
 
 ## Zachované vlastnosti
 
-- Dosavadní zákaz indexace `noindex,nofollow` zůstává zachován. Nebrání běžnému veřejnému otevření stránky; pokud má být web dohledatelný ve vyhledávačích, upravte tento meta tag v `src/build.py` a web znovu sestavte.
+- Web používá `index,follow`, aby mohl být zařazen do výsledků veřejných vyhledávačů. Samotné zařazení a jeho rychlost závisí na vyhledávači a nasazení webu.
 - Historické dokumenty a články zůstávají odkazované na původní externí zdroje. Jejich plné texty a přílohy nejsou součástí exportu.
 - Mapy, fonty a další existující externí zdroje používají původní adresy. Samotná navigace a hlavní obrázky nejsou závislé na původní adrese ChatGPT Site.
-- BIO Registry zůstává jako již existující samostatná produktová stránka; není vráceno do hlavního přehledu digitálních nástrojů.
 
 ## Dokumentace hostingu
 

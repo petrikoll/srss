@@ -4,9 +4,6 @@ import html
 import json
 from pathlib import Path
 from urllib.parse import urlparse, urlencode, quote
-from digital_tools import build_digital_tools, build_nno_system
-from system_pages import build_business_system, build_team_portal, build_elai
-from portfolio_extensions import build_esf_generator, build_opz_tools, build_bio_registry
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
@@ -75,12 +72,14 @@ CONTACT_TEL = "+420736472168"
 CONTACT_EMAIL = "srssjesenik@gmail.com"
 DEBT_MAILTO = "mailto:" + CONTACT_EMAIL + "?" + urlencode({"subject": "Konzultace v dluhové poradně"}, quote_via=quote)
 PROFESSIONAL_MAILTO = "mailto:" + CONTACT_EMAIL + "?" + urlencode({"subject": "Poptávka odborných služeb"}, quote_via=quote)
+ACCREDITATION_ID = "AO-042-2018"
+ACCREDITATION_DATE = "21. 8. 2023"
+ACCREDITATION_URL = "https://sako.justice.cz/accredited_entities/219"
 
 PAGES = [
     ("/", "Úvod"),
     ("/dluhova-poradna/", "Pomoc s dluhy"),
     ("/oblasti-podpory/", "Pro obce a organizace"),
-    ("/digitalni-nastroje/", "Digitální nástroje"),
     ("/projekty/", "Projekty"),
     ("/o-spolecnosti/", "O nás"),
     ("/dokumenty/", "Dokumenty"),
@@ -90,14 +89,6 @@ SEO_TITLES = {
     "/": "Dluhová poradna a rozvoj sociálních služeb | SRSS Jeseník",
     "/dluhova-poradna/": "Dluhová poradna Jeseník – bezplatná pomoc s dluhy | SRSS",
     "/oblasti-podpory/": "Služby pro obce a organizace | SRSS Jeseník",
-    "/digitalni-nastroje/": "Digitální nástroje a informační systémy na míru | SRSS Jeseník",
-    "/digitalni-nastroje/projektova-evidence-a-evaluace/": "Projektová evidence a evaluace pro NNO | SRSS Jeseník",
-    "/digitalni-nastroje/firemni-systemy/": "Firemní informační systémy na míru | SRSS Jeseník",
-    "/digitalni-nastroje/tymovy-portal/": "Týmový portál pro sociální služby a projekty | SRSS Jeseník",
-    "/digitalni-nastroje/elai/": "E.L.A.I. – AI asistent pro dluhové poradce | SRSS Jeseník",
-    "/digitalni-nastroje/generator-importu-esf/": "Generátor importů do IS ESF 21+ | SRSS Jeseník",
-    "/digitalni-nastroje/nastroje-pro-opz/": "Nástroje pro OPZ+ – importy, rozpočet a evaluace | SRSS Jeseník",
-    "/digitalni-nastroje/bio-registry/": "BIO Registry – evropské bio firmy v jedné databázi | SRSS Jeseník",
     "/projekty/": "Projekty a reference | SRSS Jeseník",
     "/o-spolecnosti/": "O nás | Středisko rozvoje sociálních služeb Jeseník",
     "/dokumenty/": "Dokumenty | SRSS Jeseník",
@@ -107,24 +98,24 @@ SEO_TITLES = {
 
 def shell(title: str, description: str, path: str, main: str) -> str:
     nav = "".join(
-        f'<a href="{href}"{" aria-current=\"page\"" if href == path or (href == "/digitalni-nastroje/" and path.startswith(href)) else ""}{ " class=\"nav-cta\"" if href == "/kontakty/" else ""}>{esc(name)}</a>'
+        f'<a href="{href}"{" aria-current=\"page\"" if href == path else ""}{ " class=\"nav-cta\"" if href == "/kontakty/" else ""}>{esc(name)}</a>'
         for href, name in PAGES if href != "/"
     )
     footer_nav = "".join(f'<a href="{href}">{esc(name)}</a>' for href, name in PAGES[1:])
     return f'''<!doctype html>
 <html lang="cs"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
+<meta name="robots" content="index,follow">
 <meta name="theme-color" content="#ffffff">
 <meta name="description" content="{esc(description)}">
 <title>{esc(SEO_TITLES.get(path, title))}</title>
-<link rel="stylesheet" href="/assets/site.css?v=19">
+<link rel="stylesheet" href="/assets/site.css?v=22">
 </head><body>
 <a class="skip" href="#obsah">Přejít na obsah</a>
 <header class="site-header"><div class="wrap nav-wrap">
 <a class="brand" href="/" aria-label="Středisko rozvoje sociálních služeb – úvod"><span class="brand-image" role="img" aria-label="Logo Střediska rozvoje sociálních služeb"></span></a>
-<button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu <span aria-hidden="true">☰</span></button>
-<nav id="site-nav" class="nav-links" aria-label="Hlavní navigace">{nav}</nav>
+<button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Otevřít hlavní menu"><span class="menu-toggle-label">Menu</span><span class="menu-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span></button>
+<nav id="site-nav" class="nav-links" aria-label="Hlavní navigace"><span class="mobile-nav-label">Na webu</span>{nav}<div class="mobile-nav-contact"><span>Rychlý kontakt</span><a href="tel:{CONTACT_TEL}">{CONTACT_PHONE}</a></div></nav>
 </div></header>
 <main id="obsah">{main}</main>
 <footer class="site-footer"><div class="wrap">
@@ -135,7 +126,7 @@ def shell(title: str, description: str, path: str, main: str) -> str:
 </div>
 <div class="footer-bottom"><span>© 2026 Středisko rozvoje sociálních služeb, o.p.s.</span><span>Podpora · Rozvoj · Příležitosti</span></div>
 </div></footer>
-<script src="/assets/site.js?v=3" defer></script></body></html>'''
+<script src="/assets/site.js?v=5" defer></script></body></html>'''
 
 
 def page_hero(title: str, subtitle: str, breadcrumb: str, visual: str = "", compact: bool = False, extra_content: str = "") -> str:
@@ -161,9 +152,10 @@ def write_page(path: str, title: str, desc: str, body: str):
     target.write_text(shell(title, desc, path, body), encoding="utf-8")
 
 
-def project_card(title: str, category: str, summary: str, url: str = "") -> str:
+def project_card(title: str, category: str, summary: str, url: str = "", extra: bool = False) -> str:
     source = safe_link(url, "Archivní článek ↗", "link-arrow") if url else ""
-    return f'<article class="record"><small>{esc(category)}</small><h3>{esc(title)}</h3><p>{esc(summary)}</p>{source}</article>'
+    extra_attr = ' data-document-extra="true"' if extra else ""
+    return f'<article class="record" data-document-item data-document-category="archive"{extra_attr}><small>{esc(category)}</small><h3>{esc(title)}</h3><p>{esc(summary)}</p>{source}</article>'
 
 
 REFERENCE_ANCHORS = {
@@ -184,7 +176,7 @@ def reference_card(title: str, category: str, audience: str, role: str, result: 
 
 DEBT_CONTACT = f'''<div class="contact-person"><strong>{CONTACT_NAME}</strong><span>Dluhová poradkyně</span><a href="tel:{CONTACT_TEL}">{CONTACT_PHONE}</a><a href="{DEBT_MAILTO}">{CONTACT_EMAIL}</a></div>'''
 DEBT_ACTIONS = f'''<div class="contact-actions"><a class="button dark" href="tel:{CONTACT_TEL}">Zavolat poradkyni</a><a class="button contact-email" href="{DEBT_MAILTO}">Napsat e-mail</a></div>'''
-DEBT_HOURS = '''<table class="opening-hours"><caption>Provozní doba poradny</caption><tbody><tr><th scope="row">Pondělí</th><td>7:30–12:00, 12:30–16:00</td></tr><tr><th scope="row">Úterý</th><td>7:30–12:00, 12:30–16:00</td></tr><tr><th scope="row">Středa</th><td>Ověřte telefonicky</td></tr><tr><th scope="row">Čtvrtek</th><td>7:30–12:00, 12:30–16:00</td></tr><tr><th scope="row">Pátek</th><td>Zavřeno</td></tr></tbody></table><p class="visit-note">Před návštěvou se prosím domluvte s poradkyní na termínu.</p>'''
+DEBT_HOURS = '''<table class="opening-hours"><caption>Provozní doba poradny</caption><tbody><tr><th scope="row">Pondělí</th><td>7:30–12:00, 12:30–16:00</td></tr><tr><th scope="row">Úterý</th><td>7:30–12:00, 12:30–16:00</td></tr><tr><th scope="row">Středa</th><td>7:30–12:00, 12:30–16:00</td></tr><tr><th scope="row">Čtvrtek</th><td>7:30–12:00, 12:30–16:00</td></tr><tr><th scope="row">Pátek</th><td>Zavřeno</td></tr></tbody></table><p class="visit-note">Před návštěvou se prosím domluvte s poradkyní na termínu.</p>'''
 OFFICE_PHOTO = '''<figure class="office-photo"><a href="/assets/poradna-budova.png" target="_blank" rel="noopener" aria-label="Zvětšit snímek budovy poradny"><img src="/assets/poradna-budova.png" width="1711" height="919" loading="lazy" decoding="async" alt="Pohled na ulici 28. října v Jeseníku; červená šipka označuje modrou budovu, ve které je poradna"></a><figcaption>Šipka označuje budovu poradny na adrese 28. října 896/19. Použijte vedlejší vchod do budovy modrého Zverimaxu.</figcaption></figure>'''
 
 
@@ -244,14 +236,15 @@ home = f'''
 <div class="hero-copy"><span class="eyebrow">Podpora · Rozvoj · Příležitosti</span>
 <h1>Pomáháme <em>lidem s dluhy</em> a <em>obcím</em> v rozvoji</h1>
 <p>V Jeseníku poskytujeme bezplatné a důvěrné dluhové poradenství. Obcím a organizacím nabízíme komunitní plánování, projektovou podporu, evaluace a tvorbu strategických dokumentů.</p>
-<div class="hero-actions"><a class="button dark" href="/dluhova-poradna/">Chci pomoc s dluhy</a><a class="button outline" href="/oblasti-podpory/">Služby pro obce a organizace</a></div>
+<div class="hero-actions" aria-label="Vyberte, s čím potřebujete pomoci"><a class="button dark" href="/dluhova-poradna/">Potřebuji pomoc s dluhy</a><a class="button outline" href="/oblasti-podpory/">Jsem obec nebo organizace</a></div>
 </div><div class="hero-visual">
 <img class="hero-illustration" src="/assets/poradenstvi-ilustrace.png" width="1448" height="1086" alt="Ilustrace přátelského poradenského rozhovoru s městem a horami v pozadí" fetchpriority="high">
 <aside class="advice-card" aria-labelledby="poradna-title"><div class="advice-heading"><span class="advice-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8A8.5 8.5 0 0 1 12.5 20a8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7A8.4 8.4 0 0 1 4 11.5 8.5 8.5 0 0 1 8.7 3.9a8.4 8.4 0 0 1 3.8-.9H13a8.5 8.5 0 0 1 8 8v.5Z"/><path d="M8.5 10h7M8.5 14h4"/></svg></span><div><h2 id="poradna-title">Dluhová poradna Jeseník</h2><p>Bezplatné a důvěrné poradenství.</p></div></div>
 <div class="advice-contact"><strong>{CONTACT_NAME}</strong><span>Dluhová poradkyně</span><a href="tel:{CONTACT_TEL}">{CONTACT_PHONE}</a><a href="{DEBT_MAILTO}">{CONTACT_EMAIL}</a></div>
 <p class="advice-address">28. října 896/19, Jeseník</p>
+<p class="advice-project">Akreditovaná osoba pro služby v oblasti oddlužení · <a href="{ACCREDITATION_URL}" target="_blank" rel="noopener noreferrer">{ACCREDITATION_ID} ↗</a></p>
 <p class="advice-project">Poradenství v rámci projektu Jesenicko proti dluhům III pokračuje od února 2025.</p>
-<div class="advice-actions"><a class="button dark" href="/dluhova-poradna/#kontakt-a-objednani">Domluvit konzultaci</a><a class="textlink" href="/dluhova-poradna/#s-cim-pomuzeme">Jak poradna pomáhá <span aria-hidden="true">→</span></a></div>
+<div class="advice-actions"><a class="button dark" href="tel:{CONTACT_TEL}">Zavolat poradkyni</a><span class="advice-next-step">Nejdřív si domluvte termín.</span></div>
 </aside>
 </div></div></section>
 <section class="section services-home" id="jak-pomahame"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Jak pomáháme</span><h2>Pro obce a organizace</h2><p>Pomáháme obcím, poskytovatelům a dalším organizacím plánovat sociální služby, připravovat a řídit projekty, vyhodnocovat jejich výsledky a zpracovávat strategické dokumenty.</p></div></div>
@@ -293,7 +286,7 @@ write_page("/oblasti-podpory/", "Služby pro obce a organizace", "Komunitní pl�
 
 debt = '<div class="debt-page">' + page_hero("Dluhová poradna Jeseník", "Potřebujete řešit dluhy, oddlužení nebo komunikaci s věřiteli? Dluhová poradna SRSS v Jeseníku nabízí bezplatné a důvěrné poradenství.", "Dluhová poradna", "debt-scene", compact=True)
 debt += section("Kontakt a objednání", f'''<div class="two-col"><div>{DEBT_CONTACT}<p><strong>Poradna:</strong> 28. října 896/19, Jeseník</p>{DEBT_ACTIONS}</div><div class="detail-card">{DEBT_HOURS}</div></div>''', anchor="kontakt-a-objednani")
-debt += section("S čím vám pomůžeme", '''<div class="two-col"><ul class="debt-help-list"><li>Řešení dluhové situace</li><li>Oddlužení</li><li>Komunikace s věřiteli</li></ul><div><h3>Domluva první konzultace</h3><p>Ozvěte se telefonicky nebo e-mailem. S poradkyní si domluvte termín konzultace a další postup podle své situace.</p><p>Do prvního e-mailu neposílejte rodné číslo, čísla osobních dokladů ani citlivé přílohy. Podrobnosti můžete probrat při konzultaci.</p></div></div>''', alt=True, anchor="s-cim-pomuzeme")
+debt += section("S čím vám pomůžeme", f'''<div class="two-col"><div><ul class="debt-help-list"><li>Řešení dluhové situace</li><li>Posouzení možností oddlužení</li><li>Bezplatný sepis a podání návrhu na povolení oddlužení</li><li>Komunikace s věřiteli</li></ul><div class="detail-card"><h3>Akreditované služby v oblasti oddlužení</h3><p>Středisko rozvoje sociálních služeb, o.p.s. je vedeno v Seznamu akreditovaných osob Ministerstva spravedlnosti ČR. ID akreditace <strong>{ACCREDITATION_ID}</strong>, datum udělení {ACCREDITATION_DATE}.</p><p><a class="link-arrow" href="{ACCREDITATION_URL}" target="_blank" rel="noopener noreferrer">Ověřit v oficiálním seznamu Ministerstva spravedlnosti ↗</a></p></div></div><div><h3>Domluva první konzultace</h3><p>Ozvěte se telefonicky nebo e-mailem. S poradkyní si domluvte termín konzultace a další postup podle své situace.</p><p>Do prvního e-mailu neposílejte rodné číslo, čísla osobních dokladů ani citlivé přílohy. Podrobnosti můžete probrat při konzultaci.</p></div></div>''', alt=True, anchor="s-cim-pomuzeme")
 debt += section("Kde nás najdete", '<p class="lead">Dluhová poradna SRSS · 28. října 896/19, Jeseník</p><p>Najdete nás v budově modrého Zverimaxu. Do poradny vstupujte vedlejším vchodem.</p><div id="mapa-poradny">' + OFFICE_PHOTO + location_map("Dluhová poradna", "28. října 896/19, Jeseník", 50.224855277778, 17.206881388889, "Budova modrého Zverimaxu, vedlejší vchod.") + '</div>', anchor="kde-nas-najdete")
 debt += section("O projektu Jesenicko proti dluhům III", '<p>Dluhové poradenství v rámci projektu Jesenicko proti dluhům III pokračuje od února 2025.</p><p class="small">Projekt OP Zaměstnanost plus · CZ.03.02.01/00/24_065/0004961</p><a class="link-arrow" href="/projekty/#jesenicko-proti-dluhum-iii">Detail projektu Jesenicko proti dluhům III →</a>', alt=True)
 debt += '</div>'
@@ -305,7 +298,7 @@ projects = '''<section class="page-hero page-hero--compact project-offer"><div c
 <p>Pomáháme obcím a organizacím proměnit záměr v dobře připravený projekt. Návrh přizpůsobíme vašim potřebám a cílům.</p>
 <div class="project-offer-actions"><a class="button dark" href="/kontakty/#odborne-sluzby">Chci projekt na míru</a><a class="project-offer-link" href="#realizovane-projekty">Projekty a reference <span aria-hidden="true">→</span></a></div>
 </div>
-<div class="project-success"><p>Úspěšnost při schvalování</p><strong><span>Více než</span>90&nbsp;%</strong><p class="project-success-context">námi připravených projektů</p></div>
+<div class="project-success"><p>Úspěšnost ve věcném hodnocení</p><strong>90,12&nbsp;%</strong><p class="project-success-context">z projektů podaných v letech 2018–2026</p></div>
 </div></section>'''
 planning_source = "https://www.konice.charita.cz/res/archive/008/001029.pdf?seek=1611613175"
 own = [
@@ -329,11 +322,12 @@ projects += section("Další projekty a dokumenty", '''<p>Výroční zprávy, pr
 write_page("/projekty/", "Projekty a reference", "Přehled projektů a spolupráce SRSS v oblasti dluhového poradenství, sociálních služeb, projektové podpory a evaluací.", projects)
 
 docs = page_hero("Dokumenty", "Přehled výročních zpráv, projektových podkladů a odborných výstupů Střediska rozvoje sociálních služeb. Starší informace o naší činnosti najdete v archivu.", "Dokumenty", "documents", compact=True)
-docs += '<nav class="document-nav wrap" aria-label="Kategorie dokumentů">' + ''.join(f'<a href="#{anchor}">{icon(symbol)}<span>{label}</span></a>' for anchor,symbol,label in [("vyrocni-zpravy","report","Výroční zprávy"),("projektove-podklady","project","Projektové podklady"),("archiv","method","Archiv stránek")]) + '</nav>'
-docs += section("Výroční zprávy", f'''<p>Výroční zprávy za roky 2009–2015 zde zatím nejsou dostupné ke stažení. O konkrétní zprávu nás můžete požádat e-mailem.</p><a class="link-arrow" href="mailto:{CONTACT_EMAIL}?subject=V%C3%BDro%C4%8Dn%C3%AD%20zpr%C3%A1va">Požádat o výroční zprávu →</a><div class="doc-list pad-top">''' + "".join(f'<div class="doc">{icon("report", "doc-symbol")}<div><strong>Výroční zpráva {year}</strong><small>Soubor zatím není k dispozici</small></div></div>' for year in range(2009, 2016)) + '''</div>''', "Výroční zprávy společnosti", anchor="vyrocni-zpravy", heading_icon="report")
+docs += f'''<section class="document-tools"><div class="wrap"><div class="document-tools-intro"><span class="eyebrow">Najděte správný podklad</span><h2>Dokumenty podle potřeby</h2><p>Vyhledejte dokument podle názvu, roku nebo tématu a případně omezte výsledky na jednu kategorii.</p></div><div class="document-search"><label for="document-search">Hledat v dokumentech a archivu</label><input id="document-search" type="search" autocomplete="off" placeholder="Například evaluace, 2021 nebo Litovel"></div><div class="document-filters" role="group" aria-label="Filtrovat dokumenty podle kategorie"><button type="button" class="is-active" data-document-filter="all" aria-pressed="true">Všechny</button><button type="button" data-document-filter="reports" aria-pressed="false">Výroční zprávy</button><button type="button" data-document-filter="projects" aria-pressed="false">Projektové podklady</button><button type="button" data-document-filter="archive" aria-pressed="false">Historický archiv</button></div><p id="document-results" class="document-results" aria-live="polite"></p></div></section>'''
+docs += '<div data-document-section="reports">' + section("Výroční zprávy", f'''<p>Výroční zprávy budou na web doplněny později. Do té doby si můžete konkrétní zprávu vyžádat e-mailem.</p><a class="link-arrow" href="mailto:{CONTACT_EMAIL}?subject=V%C3%BDro%C4%8Dn%C3%AD%20zpr%C3%A1va">Požádat o výroční zprávu →</a>''', "Výroční zprávy společnosti", anchor="vyrocni-zpravy", heading_icon="report") + '</div>'
 
+DOCUMENT_PREVIEW_LIMIT = 8
 docs_items = []
-for document in LEGACY["dokumenty"]:
+for index, document in enumerate(LEGACY["dokumenty"]):
     name = document.get("nazev", "Dokument")
     if name.startswith("Výroční zpráva"):
         continue
@@ -343,10 +337,13 @@ for document in LEGACY["dokumenty"]:
     link = safe_link(direct_url, name + " – původní soubor ↗") if direct_url else safe_link(parent_url, name + " – archivní stránka ↗") if parent_url else ""
     normalized = name.lower()
     doc_icon = "form" if any(word in normalized for word in ("přihláška", "krycí", "prohlášení", "smlouvy", "harmonogram")) else "method" if any(word in normalized for word in ("metod", "postup", "plán")) else "report" if any(word in normalized for word in ("zpráva", "analýza", "výzkum")) else "verified"
-    docs_items.append(f'<div class="doc">{icon(doc_icon, "doc-symbol")}<div><strong>{esc(name)}</strong><small>{esc(year)} · Soubor na tomto webu není k dispozici</small><br>{link}</div></div>')
-docs += section("Projektové podklady", '<p>Přehled analýz, plánů a dalších projektových materiálů. Odkazy vedou na archivní umístění; některé mohou být nedostupné.</p><div class="doc-list pad-top">' + "".join(docs_items) + '</div>', "Historické dokumenty", True, anchor="projektove-podklady", heading_icon="project")
+    extra_attr = ' data-document-extra="true"' if len(docs_items) >= DOCUMENT_PREVIEW_LIMIT else ""
+    docs_items.append(f'<div class="doc" data-document-item data-document-category="projects"{extra_attr}>{icon(doc_icon, "doc-symbol")}<div><strong>{esc(name)}</strong><small>{esc(year)} · Soubor na tomto webu není k dispozici</small><br>{link}</div></div>')
+project_more_count = max(0, len(docs_items) - DOCUMENT_PREVIEW_LIMIT)
+project_more = f'<button class="document-more" type="button" data-document-more="projects" aria-expanded="false">Zobrazit dalších {project_more_count} projektových podkladů</button>' if project_more_count else ""
+docs += '<div data-document-section="projects">' + section("Projektové podklady", '<p>Přehled analýz, plánů a dalších projektových materiálů. Odkazy vedou na archivní umístění; některé mohou být nedostupné.</p><div class="doc-list pad-top">' + "".join(docs_items) + '</div>' + project_more, "Historické dokumenty", True, anchor="projektove-podklady", heading_icon="project") + '</div>'
 archive = []
-for item in LEGACY["zdroje"]:
+for index, item in enumerate(LEGACY["zdroje"]):
     url = item.get("zdroj_url") or ""
     title = item.get("nazev") or "Záznam"
     summary = item.get("zjisteni") or ""
@@ -355,29 +352,106 @@ for item in LEGACY["zdroje"]:
     # placeholder; do not present that as a source link to the specific item.
     if url.rstrip("/") in {"https://srssjesenik.cz", "http://srssjesenik.cz"}:
         url = ""
-    archive.append(project_card(title, year or item.get("typ", "Archiv"), summary, url))
-docs += section("Archiv stránek a článků", '<p>Starší články a informace o činnosti společnosti. Adresy, kontakty a provozní údaje v historických záznamech odpovídají době jejich zveřejnění.</p><div class="records pad-top">' + "".join(archive) + '</div><p class="source-note">Přehled obsahuje shrnutí archivních záznamů. Plné texty a přílohy nejsou součástí tohoto webu; dostupnost externích odkazů se může měnit.</p>', "Archiv veřejného obsahu", anchor="archiv", heading_icon="method")
+    archive.append(project_card(title, year or item.get("typ", "Archiv"), summary, url, extra=len(archive) >= DOCUMENT_PREVIEW_LIMIT))
+archive_more_count = max(0, len(archive) - DOCUMENT_PREVIEW_LIMIT)
+archive_more = f'<button class="document-more" type="button" data-document-more="archive" aria-expanded="false">Zobrazit dalších {archive_more_count} archivních záznamů</button>' if archive_more_count else ""
+docs += '<div data-document-section="archive">' + section("Archiv stránek a článků", '<p>Starší články a informace o činnosti společnosti. Adresy, kontakty a provozní údaje v historických záznamech odpovídají době jejich zveřejnění.</p><div class="records pad-top">' + "".join(archive) + '</div>' + archive_more + '<p class="source-note">Přehled obsahuje shrnutí archivních záznamů. Plné texty a přílohy nejsou součástí tohoto webu; dostupnost externích odkazů se může měnit.</p>', "Archiv veřejného obsahu", anchor="archiv", heading_icon="method") + '</div>'
 write_page("/dokumenty/", "Dokumenty", "Přehled dokumentů a materiálů Střediska rozvoje sociálních služeb Jeseník, výročních zpráv, projektových podkladů a archivních článků.", docs)
 
 contact = page_hero("Kontakt", "Vyberte kontakt podle toho, s čím se na nás obracíte.", "Kontakt", compact=True)
 contact += section("S čím se na nás obracíte?", f'''<div class="contact-options">
-<article class="contact-option" id="pomoc-s-dluhy">{icon("advice", "service-icon")}<h3>Potřebuji pomoc s dluhy</h3><p>Bezplatné a důvěrné poradenství. Zavolejte nebo napište poradkyni a domluvte si konzultaci.</p>{DEBT_CONTACT}<p><strong>Dluhová poradna:</strong><br>28. října 896/19, Jeseník</p>{DEBT_ACTIONS}<p class="contact-detail-link"><a href="/dluhova-poradna/">Jak poradna pomáhá →</a></p></article>
-<article class="contact-option" id="odborne-sluzby">{icon("project", "service-icon")}<h3>Jsem obec nebo organizace</h3><p>Potřebujete komunitní plánování, projektovou podporu, evaluaci nebo strategický dokument? Napište nám stručně svůj záměr a domluvíme další postup.</p><div class="contact-person"><strong>Kontakt SRSS pro odbornou spolupráci</strong><a href="tel:{CONTACT_TEL}">{CONTACT_PHONE}</a><a href="{PROFESSIONAL_MAILTO}">{CONTACT_EMAIL}</a></div><p class="contact-hint">Do e-mailu stačí uvést organizaci, stručný záměr a telefon pro zpětný kontakt.</p><a class="button dark" href="{PROFESSIONAL_MAILTO}">Domluvit konzultaci k vašemu záměru →</a></article>
+<article class="contact-option" id="pomoc-s-dluhy">{icon("advice", "service-icon")}<h3>Potřebuji pomoc s dluhy</h3><p>Bezplatné a důvěrné poradenství. Zavolejte nebo napište poradkyni a domluvte si konzultaci.</p><div class="contact-primary-actions">{DEBT_ACTIONS}</div>{DEBT_CONTACT}<p><strong>Dluhová poradna:</strong><br>28. října 896/19, Jeseník</p><p class="contact-detail-link"><a href="/dluhova-poradna/">Jak poradna pomáhá →</a></p></article>
+<article class="contact-option" id="odborne-sluzby">{icon("project", "service-icon")}<h3>Jsem obec nebo organizace</h3><p>Potřebujete komunitní plánování, projektovou podporu, evaluaci nebo strategický dokument? Napište nám stručně svůj záměr a domluvíme další postup.</p><a class="button dark contact-primary-action" href="{PROFESSIONAL_MAILTO}">Napsat k vašemu záměru →</a><div class="contact-person"><strong>Kontakt SRSS pro odbornou spolupráci</strong><a href="tel:{CONTACT_TEL}">{CONTACT_PHONE}</a><a href="{PROFESSIONAL_MAILTO}">{CONTACT_EMAIL}</a></div><p class="contact-hint">Do e-mailu stačí uvést organizaci, stručný záměr a telefon pro zpětný kontakt.</p></article>
 </div>''', "Spojte se s námi")
 contact += section("Návštěva dluhové poradny", f'''<div class="office-layout"><div><p class="lead">28. října 896/19, Jeseník</p><p>Budova modrého Zverimaxu, vedlejší vchod.</p>{DEBT_HOURS}<a class="link-arrow" href="#mapy">Zobrazit mapu →</a></div>{OFFICE_PHOTO}</div>''', "Jak nás najdete", True)
 contact += section("Kde nás najdete", '<div class="locations-grid">' + location_map("Dluhová poradna", "28. října 896/19, Jeseník", 50.224855277778, 17.206881388889, "Pracoviště poradny v budově modrého Zverimaxu, vedlejší vchod.") + location_map("Sídlo společnosti", "Na Stráni 297/22, Jeseník – Bukovice", 50.223438611111, 17.212241666667, "Sídlo společnosti. Osobní schůzku si prosím domluvte předem.") + '</div>', "Pracoviště a sídlo", anchor="mapy")
 contact += section("Identifikační údaje", '''<div class="detail-card organisation-details"><dl><dt>Název</dt><dd>Středisko rozvoje sociálních služeb, o.p.s.</dd><dt>Sídlo</dt><dd>Na Stráni 297/22, 790 01 Jeseník – Bukovice</dd><dt>IČO</dt><dd>27847977</dd><dt>Datová schránka</dt><dd>bkyt4gn</dd><dt>Rejstřík</dt><dd>Krajský soud v Ostravě, sp. zn. O 1009</dd><dt>Zápis</dt><dd>21. června 2008</dd></dl></div>''', "Středisko rozvoje sociálních služeb, o.p.s.", True)
 write_page("/kontakty/", "Kontakt", "Kontakty na Středisko rozvoje sociálních služeb a dluhovou poradnu v Jeseníku, sídlo společnosti a identifikační údaje.", contact)
 
-write_page("/digitalni-nastroje/", "Digitální nástroje", "Nástroje pro poradenství, řízení a evaluaci projektů, sociální práci a rozvoj týmu. Specializované aplikace i firemní informační systémy na míru.", build_digital_tools(icon, CONTACT_EMAIL))
-write_page("/digitalni-nastroje/projektova-evidence-a-evaluace/", "Projektová evidence a evaluace pro NNO", "Klientská práce, case management, řízení projektu a evaluace v jedné evidenci. Plány podpory, indikátory, výkazy a průběžné i závěrečné evaluační zprávy.", build_nno_system(CONTACT_EMAIL))
-write_page("/digitalni-nastroje/firemni-systemy/", "Firemní informační systémy na míru", "Zákazníci, nabídky, zakázky, sklad, fakturace a komunikace v jednom systému podle procesu vaší firmy. Ukázkové řešení ThermoVan.", build_business_system(CONTACT_EMAIL))
-write_page("/digitalni-nastroje/tymovy-portal/", "Týmový portál", "Pracovní výkazy, hodnocení, vzdělávací plány, supervize, porady a úkoly. Týmový portál pro sociální služby, NNO a projekty s metodickým spořičem.", build_team_portal(CONTACT_EMAIL))
-write_page("/digitalni-nastroje/elai/", "E.L.A.I.", "AI asistent pro dluhové poradce. Čistopis pracovních poznámek, kazuistika a metodická kontrola zápisu s odborným posouzením poradcem.", build_elai(CONTACT_EMAIL))
-write_page("/digitalni-nastroje/generator-importu-esf/", "Generátor importů do IS ESF 21+", "Převod Excelu na importní CSV podpořených osob a podpor. Kontrola údajů, číselníků, duplicit a adres RÚIAN přímo v prohlížeči.", build_esf_generator(CONTACT_EMAIL))
-write_page("/digitalni-nastroje/nastroje-pro-opz/", "Nástroje pro OPZ+", "Generátor importů IS ESF, Sledovač čerpání rozpočtu OPZ+ a projektová evidence s evaluací. Tři nástroje pro práci na projektech.", build_opz_tools(CONTACT_EMAIL))
-write_page("/digitalni-nastroje/bio-registry/", "BIO Registry", "Desktopová databáze pro Windows sjednocující evropské registry bio firem, certifikace a veřejné kontakty. Vyhledávání, aktualizace a export do XLSX a CSV.", build_bio_registry(CONTACT_EMAIL))
+(DIST / "assets/site.js").write_text('''const toggle=document.querySelector(".menu-toggle"),nav=document.querySelector("#site-nav");
+if(toggle&&nav){
+  const toggleLabel=toggle.querySelector(".menu-toggle-label");
+  const setMenuState=open=>{
+    toggle.setAttribute("aria-expanded",String(open));
+    toggle.setAttribute("aria-label",open?"Zavřít hlavní menu":"Otevřít hlavní menu");
+    if(toggleLabel){toggleLabel.textContent=open?"Zavřít":"Menu";}
+    nav.classList.toggle("open",open);
+    document.body.classList.toggle("menu-open",open);
+  };
+  toggle.addEventListener("click",()=>{
+    const open=toggle.getAttribute("aria-expanded")==="true";
+    setMenuState(!open);
+  });
+  nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{
+    setMenuState(false);
+  }));
+  document.addEventListener("keydown",event=>{
+    if(event.key==="Escape"&&toggle.getAttribute("aria-expanded")==="true"){
+      setMenuState(false);
+      toggle.focus();
+    }
+  });
+  document.addEventListener("click",event=>{
+    if(toggle.getAttribute("aria-expanded")==="true"&&!nav.contains(event.target)&&!toggle.contains(event.target)){
+      setMenuState(false);
+    }
+  });
+  const desktopQuery=window.matchMedia("(min-width: 1241px)");
+  desktopQuery.addEventListener("change",event=>{if(event.matches){setMenuState(false);}});
+}
 
+const documentSearch=document.querySelector("#document-search");
+if(documentSearch){
+  const filterButtons=[...document.querySelectorAll("[data-document-filter]")];
+  const sectionBlocks=[...document.querySelectorAll("[data-document-section]")];
+  const moreButtons=[...document.querySelectorAll("[data-document-more]")];
+  const result=document.querySelector("#document-results");
+  const expanded=new Set();
+  let activeFilter="all";
+  const normalize=value=>value.normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();
 
-(DIST / "assets/site.js").write_text('''const toggle=document.querySelector(".menu-toggle"),nav=document.querySelector("#site-nav");if(toggle&&nav){toggle.addEventListener("click",()=>{const open=toggle.getAttribute("aria-expanded")==="true";toggle.setAttribute("aria-expanded",String(!open));nav.classList.toggle("open",!open)});nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{toggle.setAttribute("aria-expanded","false");nav.classList.remove("open")}))}''', encoding="utf-8")
+  const renderDocuments=()=>{
+    const query=normalize(documentSearch.value.trim());
+    let visibleCount=0;
+    sectionBlocks.forEach(block=>{
+      const category=block.dataset.documentSection;
+      const categoryActive=activeFilter==="all"||activeFilter===category;
+      let sectionCount=0;
+      block.querySelectorAll("[data-document-item]").forEach(item=>{
+        const matches=!query||normalize(item.textContent).includes(query);
+        const beyondPreview=item.hasAttribute("data-document-extra");
+        const visible=categoryActive&&matches&&(Boolean(query)||expanded.has(category)||!beyondPreview);
+        item.hidden=!visible;
+        if(visible){sectionCount+=1;visibleCount+=1;}
+      });
+      block.hidden=!categoryActive||(Boolean(query)&&sectionCount===0);
+      const more=block.querySelector("[data-document-more]");
+      if(more){
+        const extraCount=block.querySelectorAll("[data-document-extra]").length;
+        more.hidden=Boolean(query)||!categoryActive||extraCount===0;
+        more.setAttribute("aria-expanded",String(expanded.has(category)));
+        more.textContent=expanded.has(category)?"Zobrazit méně":`Zobrazit dalších ${extraCount} ${category==="projects"?"projektových podkladů":"archivních záznamů"}`;
+      }
+    });
+    result.textContent=query?`Nalezeno ${visibleCount} ${visibleCount===1?"položka":visibleCount>=2&&visibleCount<=4?"položky":"položek"}.`:"";
+  };
+
+  filterButtons.forEach(button=>button.addEventListener("click",()=>{
+    activeFilter=button.dataset.documentFilter;
+    filterButtons.forEach(candidate=>{
+      const active=candidate===button;
+      candidate.classList.toggle("is-active",active);
+      candidate.setAttribute("aria-pressed",String(active));
+    });
+    renderDocuments();
+  }));
+  moreButtons.forEach(button=>button.addEventListener("click",()=>{
+    const category=button.dataset.documentMore;
+    if(expanded.has(category)){expanded.delete(category);}else{expanded.add(category);}
+    renderDocuments();
+  }));
+  documentSearch.addEventListener("input",renderDocuments);
+  renderDocuments();
+}
+''', encoding="utf-8")
 print(f"Generated {len(list(DIST.rglob('index.html')))} pages and {len(archive)} archival entries")
